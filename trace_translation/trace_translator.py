@@ -32,7 +32,7 @@ class TraceTranslator:
         Process each event in the dataframe to generate a translation .
         """
         event_translator = EventTranslator(self.df)
-        output_filename = '../trace_translation_output/event_translations.txt'
+        output_filename = '../output/trace_translation_output/event_translations.txt'
         mode = 'w' if self.is_first_file else 'a'
         trace_translations = []
 
@@ -58,6 +58,6 @@ if __name__ == "__main__":
         trace_translations = trace_translator.run()
         trace_descriptions_all.extend(trace_translations)
 
-    json_output_filename = '../trace_translation_output/event_translations.json'
+    json_output_filename = '../output/trace_translation_output/event_translations.json'
     with open(json_output_filename, 'w') as json_file:
         json.dump({"traces": trace_descriptions_all}, json_file, indent=4)

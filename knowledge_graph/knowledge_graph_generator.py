@@ -304,10 +304,10 @@ def main():
     plt.axis('off')
     plt.show()
     relationship_summary_str_keys = {f"{u}_{v}": relationships for (u, v), relationships in relationship_summary.items()}
-    with open('../knowledge_graph_output/relationship_details.json', 'w') as f:
+    with open('../output/knowledge_graph_output/relationship_details.json', 'w') as f:
         json.dump(relationship_summary_str_keys, f, indent=4)
     data_json = json_graph.node_link_data(G)
-    with open('../knowledge_graph_output/knowledge_graph.json', 'w') as f:
+    with open('../output/knowledge_graph_output/knowledge_graph.json', 'w') as f:
         json.dump(data_json, f, indent=4)
 
 if __name__ == "__main__":
