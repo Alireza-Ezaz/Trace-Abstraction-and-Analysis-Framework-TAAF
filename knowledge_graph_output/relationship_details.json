@@ -1,0 +1,1218 @@
+{
+    "CPU_3_T_2208": {
+        "switched_in": 1
+    },
+    "CPU_3_T_0": {
+        "switched_in": 1
+    },
+    "CPU_3_T_7": {
+        "switched_in": 1
+    },
+    "CPU_3_T_2559": {
+        "switched_in": 1
+    },
+    "CPU_3_T_23": {
+        "switched_in": 1
+    },
+    "CPU_3_T_5123": {
+        "switched_in": 1
+    },
+    "CPU_3_T_5125": {
+        "switched_in": 1
+    },
+    "CPU_3_T_22": {
+        "switched_in": 1
+    },
+    "CPU_3_T_5127": {
+        "switched_in": 1
+    },
+    "CPU_3_T_5128": {
+        "switched_in": 1
+    },
+    "CPU_3_T_5129": {
+        "switched_in": 1
+    },
+    "CPU_3_T_5130": {
+        "switched_in": 1
+    },
+    "CPU_3_T_577": {
+        "switched_in": 1
+    },
+    "CPU_3_T_5133": {
+        "switched_in": 1
+    },
+    "CPU_3_T_5135": {
+        "switched_in": 1
+    },
+    "CPU_3_T_5138": {
+        "switched_in": 1
+    },
+    "CPU_3_T_5140": {
+        "switched_in": 1
+    },
+    "CPU_3_T_5141": {
+        "switched_in": 1
+    },
+    "CPU_3_T_5142": {
+        "switched_in": 1
+    },
+    "CPU_3_T_5144": {
+        "switched_in": 1
+    },
+    "CPU_3_T_5147": {
+        "switched_in": 1
+    },
+    "T_0_CPU_3": {
+        "switched_out": 1,
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1
+    },
+    "T_0_CPU_1": {
+        "switched_out": 1,
+        "wake_up": 1,
+        "scheduled_to_wake_on": 1
+    },
+    "T_0_CPU_2": {
+        "switched_out": 1,
+        "wake_up": 1,
+        "scheduled_to_wake_on": 1
+    },
+    "T_0_CPU_0": {
+        "switched_out": 1,
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1
+    },
+    "T_2208_File_140637496150960": {
+        "epoll_wait_exit": 1
+    },
+    "T_2208_File_24": {
+        "ioctl": 1,
+        "splice_in": 1
+    },
+    "T_2208_T_2208": {
+        "ioctl_exit": 1,
+        "splice_exit": 1,
+        "sync_file_range_exit": 1
+    },
+    "T_2208_File_28": {
+        "splice_out": 1
+    },
+    "T_2208_File_27": {
+        "splice_in": 1
+    },
+    "T_2208_File_29": {
+        "splice_out": 1,
+        "sync_file": 1
+    },
+    "T_2208_CPU_3": {
+        "runtime_stat": 1,
+        "switched_out": 1,
+        "wake_up": 1
+    },
+    "T_2208_CPU_0": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1
+    },
+    "T_2208_CPU_2": {
+        "runtime_stat": 1,
+        "switched_out": 1,
+        "scheduled_to_wake_on": 1
+    },
+    "T_7_CPU_3": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_7_CPU_0": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_7_CPU_2": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_7_CPU_1": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_7_T_7": {
+        "contains": 1
+    },
+    "CPU_0_T_15322": {
+        "switched_in": 1
+    },
+    "CPU_0_T_2186": {
+        "switched_in": 1
+    },
+    "CPU_0_T_0": {
+        "switched_in": 1
+    },
+    "CPU_0_T_7": {
+        "switched_in": 1
+    },
+    "CPU_0_T_5119": {
+        "switched_in": 1
+    },
+    "CPU_0_T_5134": {
+        "switched_in": 1
+    },
+    "CPU_0_T_9": {
+        "switched_in": 1
+    },
+    "CPU_0_T_5136": {
+        "switched_in": 1
+    },
+    "CPU_0_T_5137": {
+        "switched_in": 1
+    },
+    "CPU_0_T_5139": {
+        "switched_in": 1
+    },
+    "CPU_0_T_5140": {
+        "switched_in": 1
+    },
+    "CPU_0_T_5143": {
+        "switched_in": 1
+    },
+    "CPU_0_T_5144": {
+        "switched_in": 1
+    },
+    "CPU_0_T_5146": {
+        "switched_in": 1
+    },
+    "CPU_0_T_5147": {
+        "switched_in": 1
+    },
+    "T_2186_CPU_0": {
+        "switched_out": 1,
+        "scheduled_to_wake_on": 1,
+        "runtime_stat": 1,
+        "wake_up": 1
+    },
+    "T_2186_CPU_1": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1
+    },
+    "T_2186_CPU_2": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1
+    },
+    "T_2186_CPU_3": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1
+    },
+    "T_2186_T_2186": {
+        "ioctl_exit": 1,
+        "sendmsg_exit": 1,
+        "close_exit": 1
+    },
+    "T_2186_File_13": {
+        "ioctl": 1
+    },
+    "T_2186_Socket_FD_46": {
+        "sendmsg_entry": 1
+    },
+    "T_2186_File_FD_46": {
+        "close_fd": 1
+    },
+    "T_15322_CPU_0": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_15322_CPU_3": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1
+    },
+    "P_15322_T_15322": {
+        "contains": 1
+    },
+    "P_2047_T_2186": {
+        "contains": 1
+    },
+    "CPU_1_T_5096": {
+        "switched_in": 1
+    },
+    "CPU_1_T_0": {
+        "switched_in": 1
+    },
+    "CPU_1_T_5124": {
+        "switched_in": 1
+    },
+    "CPU_1_T_12": {
+        "switched_in": 1
+    },
+    "CPU_1_T_5125": {
+        "switched_in": 1
+    },
+    "CPU_1_T_5127": {
+        "switched_in": 1
+    },
+    "CPU_1_T_5129": {
+        "switched_in": 1
+    },
+    "CPU_1_T_5130": {
+        "switched_in": 1
+    },
+    "CPU_1_T_5131": {
+        "switched_in": 1
+    },
+    "CPU_1_T_5132": {
+        "switched_in": 1
+    },
+    "CPU_1_T_4740": {
+        "switched_in": 1
+    },
+    "CPU_1_T_7": {
+        "switched_in": 1
+    },
+    "CPU_1_T_5134": {
+        "switched_in": 1
+    },
+    "CPU_1_T_5136": {
+        "switched_in": 1
+    },
+    "CPU_1_T_5137": {
+        "switched_in": 1
+    },
+    "CPU_1_T_5139": {
+        "switched_in": 1
+    },
+    "CPU_1_T_5141": {
+        "switched_in": 1
+    },
+    "CPU_1_T_5143": {
+        "switched_in": 1
+    },
+    "CPU_1_T_5145": {
+        "switched_in": 1
+    },
+    "CPU_1_T_5146": {
+        "switched_in": 1
+    },
+    "CPU_2_T_11873": {
+        "switched_in": 1
+    },
+    "CPU_2_T_0": {
+        "switched_in": 1
+    },
+    "CPU_2_T_5124": {
+        "switched_in": 1
+    },
+    "CPU_2_T_5126": {
+        "switched_in": 1
+    },
+    "CPU_2_T_5125": {
+        "switched_in": 1
+    },
+    "CPU_2_T_5130": {
+        "switched_in": 1
+    },
+    "CPU_2_T_7": {
+        "switched_in": 1
+    },
+    "CPU_2_T_5132": {
+        "switched_in": 1
+    },
+    "CPU_2_T_18": {
+        "switched_in": 1
+    },
+    "CPU_2_T_129": {
+        "switched_in": 1
+    },
+    "CPU_2_T_2208": {
+        "switched_in": 1
+    },
+    "CPU_2_T_5133": {
+        "switched_in": 1
+    },
+    "CPU_2_T_17": {
+        "switched_in": 1
+    },
+    "CPU_2_T_5135": {
+        "switched_in": 1
+    },
+    "CPU_2_T_5138": {
+        "switched_in": 1
+    },
+    "CPU_2_T_5142": {
+        "switched_in": 1
+    },
+    "CPU_2_T_5145": {
+        "switched_in": 1
+    },
+    "T_5096_CPU_1": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5096_CPU_2": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1
+    },
+    "T_5096_CPU_3": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1
+    },
+    "P_5096_T_5096": {
+        "contains": 1
+    },
+    "T_2559_CPU_0": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1
+    },
+    "T_2559_CPU_3": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_11873_CPU_2": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_11873_T_11873": {
+        "contains": 1
+    },
+    "P_2559_T_2559": {
+        "contains": 1
+    },
+    "T_5122_CPU_0": {
+        "process_freed": 1
+    },
+    "T_23_CPU_3": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_23_T_23": {
+        "contains": 1
+    },
+    "T_5123_File_FD_3": {
+        "close_fd": 1
+    },
+    "T_5123_T_5123": {
+        "close_exit": 1,
+        "ioctl_exit": 1
+    },
+    "T_5123_File_1": {
+        "ioctl": 1
+    },
+    "T_5123_CPU_0": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "process_freed": 1
+    },
+    "T_5123_CPU_3": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_5123_T_5123": {
+        "contains": 1
+    },
+    "T_5119_CPU_0": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_5119_T_5119": {
+        "contains": 1
+    },
+    "T_5124_File_FD_255": {
+        "close_fd": 1
+    },
+    "T_5124_T_5124": {
+        "close_exit": 1
+    },
+    "T_5124_CPU_1": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5124_File_FD_3": {
+        "close_fd": 1
+    },
+    "T_5124_CPU_2": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_5124_T_5124": {
+        "contains": 1
+    },
+    "T_12_CPU_1": {
+        "switched_out": 1
+    },
+    "P_12_T_12": {
+        "contains": 1
+    },
+    "T_5125_CPU_3": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5125_File_FD_4": {
+        "close_fd": 1
+    },
+    "T_5125_T_5125": {
+        "close_exit": 1
+    },
+    "T_5125_CPU_1": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5125_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5125_CPU_2": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_5125_T_5125": {
+        "contains": 1
+    },
+    "T_22_CPU_3": {
+        "switched_out": 1
+    },
+    "P_22_T_22": {
+        "contains": 1
+    },
+    "T_5126_File_FD_10": {
+        "close_fd": 1
+    },
+    "T_5126_T_5126": {
+        "close_exit": 1
+    },
+    "T_5126_File_FD_4": {
+        "close_fd": 1
+    },
+    "T_5126_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5126_CPU_1": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "process_freed": 1
+    },
+    "T_5126_CPU_2": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_5126_T_5126": {
+        "contains": 1
+    },
+    "T_5127_File_FD_10": {
+        "close_fd": 1
+    },
+    "T_5127_T_5127": {
+        "close_exit": 1
+    },
+    "T_5127_CPU_3": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5127_File_FD_4": {
+        "close_fd": 1
+    },
+    "T_5127_CPU_1": {
+        "scheduled_to_wake_on": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5127_CPU_2": {
+        "wake_up": 1,
+        "process_freed": 1
+    },
+    "P_5127_T_5127": {
+        "contains": 1
+    },
+    "T_5128_File_FD_10": {
+        "close_fd": 1
+    },
+    "T_5128_T_5128": {
+        "close_exit": 1
+    },
+    "T_5128_File_FD_4": {
+        "close_fd": 1
+    },
+    "T_5128_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5128_File_FD_2": {
+        "close_fd": 1
+    },
+    "T_5128_CPU_3": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5128_CPU_2": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "process_freed": 1
+    },
+    "P_5128_T_5128": {
+        "contains": 1
+    },
+    "T_5129_CPU_3": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1,
+        "process_freed": 1
+    },
+    "T_5129_File_FD_4": {
+        "close_fd": 1
+    },
+    "T_5129_T_5129": {
+        "close_exit": 1
+    },
+    "T_5129_CPU_2": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1
+    },
+    "T_5129_File_FD_1": {
+        "close_fd": 1
+    },
+    "T_5129_File_FD_2": {
+        "close_fd": 1
+    },
+    "T_5129_CPU_1": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_5129_T_5129": {
+        "contains": 1
+    },
+    "T_5130_File_FD_10": {
+        "close_fd": 1
+    },
+    "T_5130_T_5130": {
+        "close_exit": 1,
+        "ioctl_exit": 1
+    },
+    "T_5130_CPU_1": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5130_File_FD_4": {
+        "close_fd": 1
+    },
+    "T_5130_CPU_2": {
+        "runtime_stat": 1,
+        "switched_out": 1,
+        "wake_up": 1,
+        "scheduled_to_wake_on": 1
+    },
+    "T_5130_File_4": {
+        "ioctl": 1
+    },
+    "T_5130_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5130_CPU_3": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5130_File_FD_6": {
+        "close_fd": 1
+    },
+    "T_5130_File_FD_8": {
+        "close_fd": 1
+    },
+    "T_5130_File_FD_7": {
+        "close_fd": 1
+    },
+    "T_5130_File_FD_9": {
+        "close_fd": 1
+    },
+    "P_5130_T_5130": {
+        "contains": 1
+    },
+    "T_5131_File_FD_4": {
+        "close_fd": 1
+    },
+    "T_5131_T_5131": {
+        "close_exit": 1
+    },
+    "T_5131_File_FD_2": {
+        "close_fd": 1
+    },
+    "T_5131_CPU_1": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5131_File_FD_10": {
+        "close_fd": 1
+    },
+    "T_5131_CPU_3": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "process_freed": 1
+    },
+    "P_5131_T_5131": {
+        "contains": 1
+    },
+    "T_5132_CPU_1": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1,
+        "process_freed": 1
+    },
+    "T_5132_File_FD_4": {
+        "close_fd": 1
+    },
+    "T_5132_T_5132": {
+        "close_exit": 1
+    },
+    "T_5132_CPU_2": {
+        "scheduled_to_wake_on": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5132_CPU_3": {
+        "wake_up": 1
+    },
+    "T_5132_File_FD_1": {
+        "close_fd": 1
+    },
+    "T_5132_File_FD_2": {
+        "close_fd": 1
+    },
+    "P_5132_T_5132": {
+        "contains": 1
+    },
+    "T_18_CPU_2": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_18_T_18": {
+        "contains": 1
+    },
+    "T_129_CPU_2": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_129_T_129": {
+        "contains": 1
+    },
+    "T_4740_CPU_1": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_4740_T_4740": {
+        "contains": 1
+    },
+    "P_2203_T_2208": {
+        "contains": 1
+    },
+    "T_577_CPU_3": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_509_T_577": {
+        "contains": 1
+    },
+    "T_5133_File_FD_6": {
+        "close_fd": 1
+    },
+    "T_5133_T_5133": {
+        "close_exit": 1
+    },
+    "T_5133_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5133_File_FD_7": {
+        "close_fd": 1
+    },
+    "T_5133_File_FD_8": {
+        "close_fd": 1
+    },
+    "T_5133_File_FD_9": {
+        "close_fd": 1
+    },
+    "T_5133_File_FD_10": {
+        "close_fd": 1
+    },
+    "T_5133_CPU_2": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5133_CPU_3": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5133_CPU_1": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "process_freed": 1
+    },
+    "P_5133_T_5133": {
+        "contains": 1
+    },
+    "T_17_CPU_2": {
+        "switched_out": 1
+    },
+    "P_17_T_17": {
+        "contains": 1
+    },
+    "T_5134_CPU_0": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5134_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5134_T_5134": {
+        "close_exit": 1
+    },
+    "T_5134_CPU_3": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "process_freed": 1
+    },
+    "T_5134_CPU_1": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_5134_T_5134": {
+        "contains": 1
+    },
+    "T_9_CPU_0": {
+        "switched_out": 1,
+        "runtime_stat": 1
+    },
+    "P_9_T_9": {
+        "contains": 1
+    },
+    "T_5135_CPU_2": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5135_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5135_T_5135": {
+        "close_exit": 1
+    },
+    "T_5135_CPU_3": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5135_File_FD_6": {
+        "close_fd": 1
+    },
+    "T_5135_File_FD_4294967295": {
+        "close_fd": 1
+    },
+    "T_5135_CPU_1": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "process_freed": 1
+    },
+    "P_5135_T_5135": {
+        "contains": 1
+    },
+    "T_5136_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5136_T_5136": {
+        "close_exit": 1
+    },
+    "T_5136_File_FD_6": {
+        "close_fd": 1
+    },
+    "T_5136_File_FD_2": {
+        "close_fd": 1
+    },
+    "T_5136_CPU_0": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5136_CPU_3": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "process_freed": 1
+    },
+    "T_5136_CPU_1": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_5136_T_5136": {
+        "contains": 1
+    },
+    "T_5137_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5137_T_5137": {
+        "close_exit": 1,
+        "ioctl_exit": 1
+    },
+    "T_5137_CPU_0": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5137_File_1": {
+        "ioctl": 1
+    },
+    "T_5137_File_0": {
+        "ioctl": 1
+    },
+    "T_5137_File_FD_1": {
+        "close_fd": 1
+    },
+    "T_5137_File_FD_2": {
+        "close_fd": 1
+    },
+    "T_5137_CPU_3": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "process_freed": 1
+    },
+    "T_5137_CPU_1": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_5137_T_5137": {
+        "contains": 1
+    },
+    "T_5138_File_FD_6": {
+        "close_fd": 1
+    },
+    "T_5138_T_5138": {
+        "close_exit": 1
+    },
+    "T_5138_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5138_File_FD_7": {
+        "close_fd": 1
+    },
+    "T_5138_File_FD_8": {
+        "close_fd": 1
+    },
+    "T_5138_File_FD_9": {
+        "close_fd": 1
+    },
+    "T_5138_File_FD_10": {
+        "close_fd": 1
+    },
+    "T_5138_CPU_2": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5138_CPU_3": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5138_CPU_1": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "process_freed": 1
+    },
+    "P_5138_T_5138": {
+        "contains": 1
+    },
+    "T_5139_CPU_0": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5139_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5139_T_5139": {
+        "close_exit": 1
+    },
+    "T_5139_CPU_3": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "process_freed": 1
+    },
+    "T_5139_CPU_1": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_5139_T_5139": {
+        "contains": 1
+    },
+    "T_5140_File_FD_6": {
+        "close_fd": 1
+    },
+    "T_5140_T_5140": {
+        "close_exit": 1
+    },
+    "T_5140_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5140_File_FD_7": {
+        "close_fd": 1
+    },
+    "T_5140_File_FD_8": {
+        "close_fd": 1
+    },
+    "T_5140_File_FD_9": {
+        "close_fd": 1
+    },
+    "T_5140_File_FD_10": {
+        "close_fd": 1
+    },
+    "T_5140_CPU_3": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5140_CPU_0": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5140_CPU_1": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1
+    },
+    "P_5140_T_5140": {
+        "contains": 1
+    },
+    "T_5141_CPU_1": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5141_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5141_T_5141": {
+        "close_exit": 1
+    },
+    "T_5141_CPU_3": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5141_CPU_0": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1
+    },
+    "P_5141_T_5141": {
+        "contains": 1
+    },
+    "T_5142_CPU_2": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5142_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5142_T_5142": {
+        "close_exit": 1
+    },
+    "T_5142_File_FD_2": {
+        "close_fd": 1
+    },
+    "T_5142_CPU_3": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5142_File_FD_10": {
+        "close_fd": 1
+    },
+    "P_5142_T_5142": {
+        "contains": 1
+    },
+    "T_5143_CPU_0": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5143_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5143_T_5143": {
+        "close_exit": 1,
+        "ioctl_exit": 1
+    },
+    "T_5143_CPU_1": {
+        "runtime_stat": 1,
+        "scheduled_to_wake_on": 1,
+        "switched_out": 1
+    },
+    "T_5143_File_1": {
+        "ioctl": 1
+    },
+    "T_5143_File_2": {
+        "ioctl": 1
+    },
+    "T_5143_File_0": {
+        "ioctl": 1
+    },
+    "T_5143_File_FD_6": {
+        "close_fd": 1
+    },
+    "T_5143_File_FD_8": {
+        "close_fd": 1
+    },
+    "T_5143_File_FD_7": {
+        "close_fd": 1
+    },
+    "T_5143_CPU_2": {
+        "wake_up": 1
+    },
+    "T_5143_File_FD_1": {
+        "close_fd": 1
+    },
+    "T_5143_File_FD_2": {
+        "close_fd": 1
+    },
+    "T_5143_CPU_3": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1
+    },
+    "P_5143_T_5143": {
+        "contains": 1
+    },
+    "T_5144_CPU_3": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5144_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5144_T_5144": {
+        "close_exit": 1
+    },
+    "T_5144_File_FD_2": {
+        "close_fd": 1
+    },
+    "T_5144_CPU_0": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5144_File_FD_10": {
+        "close_fd": 1
+    },
+    "P_5144_T_5144": {
+        "contains": 1
+    },
+    "T_5145_CPU_1": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5145_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5145_T_5145": {
+        "close_exit": 1,
+        "ioctl_exit": 1
+    },
+    "T_5145_CPU_2": {
+        "runtime_stat": 1,
+        "scheduled_to_wake_on": 1,
+        "switched_out": 1
+    },
+    "T_5145_File_1": {
+        "ioctl": 1
+    },
+    "T_5145_File_2": {
+        "ioctl": 1
+    },
+    "T_5145_File_0": {
+        "ioctl": 1
+    },
+    "T_5145_File_FD_6": {
+        "close_fd": 1
+    },
+    "T_5145_File_FD_8": {
+        "close_fd": 1
+    },
+    "T_5145_File_FD_7": {
+        "close_fd": 1
+    },
+    "T_5145_CPU_3": {
+        "wake_up": 1
+    },
+    "T_5145_File_FD_1": {
+        "close_fd": 1
+    },
+    "T_5145_File_FD_2": {
+        "close_fd": 1
+    },
+    "T_5145_CPU_0": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1
+    },
+    "P_5145_T_5145": {
+        "contains": 1
+    },
+    "T_5146_CPU_0": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5146_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5146_T_5146": {
+        "close_exit": 1
+    },
+    "T_5146_File_FD_2": {
+        "close_fd": 1
+    },
+    "T_5146_CPU_1": {
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "P_5146_T_5146": {
+        "contains": 1
+    },
+    "T_5147_CPU_3": {
+        "scheduled_to_wake_on": 1,
+        "wake_up": 1,
+        "runtime_stat": 1,
+        "switched_out": 1
+    },
+    "T_5147_File_FD_5": {
+        "close_fd": 1
+    },
+    "T_5147_T_5147": {
+        "close_exit": 1,
+        "ioctl_exit": 1
+    },
+    "T_5147_CPU_0": {
+        "runtime_stat": 1
+    },
+    "T_5147_File_1": {
+        "ioctl": 1
+    },
+    "T_5147_File_2": {
+        "ioctl": 1
+    },
+    "T_5147_File_0": {
+        "ioctl": 1
+    },
+    "T_5147_File_FD_6": {
+        "close_fd": 1
+    },
+    "P_5147_T_5147": {
+        "contains": 1
+    }
+}
