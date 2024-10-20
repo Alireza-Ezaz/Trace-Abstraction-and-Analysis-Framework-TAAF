@@ -1,7 +1,5 @@
 # Trace Abstraction and Analysis Framework (TAAF)
 
-![Project Banner](https://github.com/yourusername/taaf/blob/main/banner.png)
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -18,8 +16,6 @@
 - [Dependencies](#dependencies)
 - [Dataset](#dataset)
 - [Output](#output)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
