@@ -1,0 +1,4435 @@
+{
+  "nodes": [
+    {
+      "entity": "CPU",
+      "label": "CPU 3",
+      "id": "CPU_3",
+      "communityId": 0
+    },
+    {
+      "entity": "Thread",
+      "label": "swapper/3 (T_0)",
+      "id": "T_0",
+      "communityId": 0
+    },
+    {
+      "entity": "Thread",
+      "label": "lttng-consumerd (T_2208)",
+      "id": "T_2208",
+      "communityId": 1
+    },
+    {
+      "entity": "File",
+      "label": "Events FD=140637496150960",
+      "id": "File_140637496150960",
+      "communityId": 1
+    },
+    {
+      "entity": "File",
+      "label": "FD=24",
+      "id": "File_24",
+      "communityId": 1
+    },
+    {
+      "entity": "File",
+      "label": "Output FD: 28",
+      "id": "File_28",
+      "communityId": 1
+    },
+    {
+      "entity": "File",
+      "label": "Input FD: 27",
+      "id": "File_27",
+      "communityId": 1
+    },
+    {
+      "entity": "File",
+      "label": "Output FD: 29",
+      "id": "File_29",
+      "communityId": 1
+    },
+    {
+      "entity": "Thread",
+      "label": "rcu_sched (T_7)",
+      "id": "T_7",
+      "communityId": 0
+    },
+    {
+      "entity": "Process",
+      "label": "Process 7.0",
+      "id": "P_7",
+      "communityId": 0
+    },
+    {
+      "entity": "CPU",
+      "label": "CPU 0",
+      "id": "CPU_0",
+      "communityId": 0
+    },
+    {
+      "entity": "Thread",
+      "label": "lttng-sessiond (T_2186)",
+      "id": "T_2186",
+      "communityId": 0
+    },
+    {
+      "entity": "Thread",
+      "label": "kworker/0:0 (T_15322)",
+      "id": "T_15322",
+      "communityId": 0
+    },
+    {
+      "entity": "Process",
+      "label": "Process 15322.0",
+      "id": "P_15322",
+      "communityId": 0
+    },
+    {
+      "entity": "Process",
+      "label": "Process 2047.0",
+      "id": "P_2047",
+      "communityId": 0
+    },
+    {
+      "entity": "CPU",
+      "label": "CPU 1",
+      "id": "CPU_1",
+      "communityId": 0
+    },
+    {
+      "entity": "CPU",
+      "label": "CPU 2",
+      "id": "CPU_2",
+      "communityId": 0
+    },
+    {
+      "entity": "Thread",
+      "label": "kworker/1:2 (T_5096)",
+      "id": "T_5096",
+      "communityId": 0
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5096.0",
+      "id": "P_5096",
+      "communityId": 0
+    },
+    {
+      "entity": "Thread",
+      "label": "kworker/3:0 (T_2559)",
+      "id": "T_2559",
+      "communityId": 0
+    },
+    {
+      "entity": "Thread",
+      "label": "kworker/2:0 (T_11873)",
+      "id": "T_11873",
+      "communityId": 0
+    },
+    {
+      "entity": "Process",
+      "label": "Process 11873.0",
+      "id": "P_11873",
+      "communityId": 0
+    },
+    {
+      "entity": "Process",
+      "label": "Process 2559.0",
+      "id": "P_2559",
+      "communityId": 0
+    },
+    {
+      "entity": "File",
+      "label": "FD=13",
+      "id": "File_13",
+      "communityId": 0
+    },
+    {
+      "entity": "Thread",
+      "label": "lttng (TID 5122)",
+      "id": "T_5122",
+      "communityId": 0
+    },
+    {
+      "entity": "Thread",
+      "label": "ksoftirqd/3 (T_23)",
+      "id": "T_23",
+      "communityId": 0
+    },
+    {
+      "entity": "Process",
+      "label": "Process 23.0",
+      "id": "P_23",
+      "communityId": 0
+    },
+    {
+      "entity": "Network",
+      "label": "Socket FD 46",
+      "id": "Socket_FD_46",
+      "communityId": 0
+    },
+    {
+      "entity": "File",
+      "label": "FD 46",
+      "id": "File_FD_46",
+      "communityId": 0
+    },
+    {
+      "entity": "Thread",
+      "label": "lttng (T_5123)",
+      "id": "T_5123",
+      "communityId": 4
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5123.0",
+      "id": "P_5123",
+      "communityId": 4
+    },
+    {
+      "entity": "File",
+      "label": "FD 3",
+      "id": "File_FD_3",
+      "communityId": 4
+    },
+    {
+      "entity": "File",
+      "label": "FD=1",
+      "id": "File_1",
+      "communityId": 5
+    },
+    {
+      "entity": "Thread",
+      "label": "bench-all-event (T_5119)",
+      "id": "T_5119",
+      "communityId": 0
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5119.0",
+      "id": "P_5119",
+      "communityId": 0
+    },
+    {
+      "entity": "Thread",
+      "label": "bench-all-event (T_5124)",
+      "id": "T_5124",
+      "communityId": 4
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5124.0",
+      "id": "P_5124",
+      "communityId": 4
+    },
+    {
+      "entity": "File",
+      "label": "FD 255",
+      "id": "File_FD_255",
+      "communityId": 4
+    },
+    {
+      "entity": "Thread",
+      "label": "migration/1 (T_12)",
+      "id": "T_12",
+      "communityId": 0
+    },
+    {
+      "entity": "Process",
+      "label": "Process 12.0",
+      "id": "P_12",
+      "communityId": 0
+    },
+    {
+      "entity": "Thread",
+      "label": "time (T_5125)",
+      "id": "T_5125",
+      "communityId": 7
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5125.0",
+      "id": "P_5125",
+      "communityId": 7
+    },
+    {
+      "entity": "Thread",
+      "label": "migration/3 (T_22)",
+      "id": "T_22",
+      "communityId": 0
+    },
+    {
+      "entity": "Process",
+      "label": "Process 22.0",
+      "id": "P_22",
+      "communityId": 0
+    },
+    {
+      "entity": "File",
+      "label": "FD 4",
+      "id": "File_FD_4",
+      "communityId": 7
+    },
+    {
+      "entity": "File",
+      "label": "FD 5",
+      "id": "File_FD_5",
+      "communityId": 2
+    },
+    {
+      "entity": "Thread",
+      "label": "phoronix-test-s (T_5126)",
+      "id": "T_5126",
+      "communityId": 7
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5126.0",
+      "id": "P_5126",
+      "communityId": 7
+    },
+    {
+      "entity": "File",
+      "label": "FD 10",
+      "id": "File_FD_10",
+      "communityId": 7
+    },
+    {
+      "entity": "Thread",
+      "label": "phoronix-test-s (T_5127)",
+      "id": "T_5127",
+      "communityId": 7
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5127.0",
+      "id": "P_5127",
+      "communityId": 7
+    },
+    {
+      "entity": "Thread",
+      "label": "phoronix-test-s (T_5128)",
+      "id": "T_5128",
+      "communityId": 7
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5128.0",
+      "id": "P_5128",
+      "communityId": 7
+    },
+    {
+      "entity": "File",
+      "label": "FD 2",
+      "id": "File_FD_2",
+      "communityId": 7
+    },
+    {
+      "entity": "Thread",
+      "label": "phoronix-test-s (T_5129)",
+      "id": "T_5129",
+      "communityId": 7
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5129.0",
+      "id": "P_5129",
+      "communityId": 7
+    },
+    {
+      "entity": "File",
+      "label": "FD 1",
+      "id": "File_FD_1",
+      "communityId": 7
+    },
+    {
+      "entity": "Thread",
+      "label": "phoronix-test-s (T_5130)",
+      "id": "T_5130",
+      "communityId": 7
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5130.0",
+      "id": "P_5130",
+      "communityId": 7
+    },
+    {
+      "entity": "File",
+      "label": "FD=4",
+      "id": "File_4",
+      "communityId": 7
+    },
+    {
+      "entity": "Thread",
+      "label": "php5 (T_5131)",
+      "id": "T_5131",
+      "communityId": 7
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5131.0",
+      "id": "P_5131",
+      "communityId": 7
+    },
+    {
+      "entity": "Thread",
+      "label": "sh (T_5132)",
+      "id": "T_5132",
+      "communityId": 7
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5132.0",
+      "id": "P_5132",
+      "communityId": 7
+    },
+    {
+      "entity": "File",
+      "label": "FD 6",
+      "id": "File_FD_6",
+      "communityId": 7
+    },
+    {
+      "entity": "Thread",
+      "label": "ksoftirqd/2 (T_18)",
+      "id": "T_18",
+      "communityId": 0
+    },
+    {
+      "entity": "Process",
+      "label": "Process 18.0",
+      "id": "P_18",
+      "communityId": 0
+    },
+    {
+      "entity": "Thread",
+      "label": "kworker/2:1H (T_129)",
+      "id": "T_129",
+      "communityId": 0
+    },
+    {
+      "entity": "Process",
+      "label": "Process 129.0",
+      "id": "P_129",
+      "communityId": 0
+    },
+    {
+      "entity": "Thread",
+      "label": "kworker/u8:2 (T_4740)",
+      "id": "T_4740",
+      "communityId": 0
+    },
+    {
+      "entity": "Process",
+      "label": "Process 4740.0",
+      "id": "P_4740",
+      "communityId": 0
+    },
+    {
+      "entity": "Process",
+      "label": "Process 2203.0",
+      "id": "P_2203",
+      "communityId": 1
+    },
+    {
+      "entity": "Thread",
+      "label": "gmain (T_577)",
+      "id": "T_577",
+      "communityId": 0
+    },
+    {
+      "entity": "Process",
+      "label": "Process 509.0",
+      "id": "P_509",
+      "communityId": 0
+    },
+    {
+      "entity": "Thread",
+      "label": "php5 (T_5133)",
+      "id": "T_5133",
+      "communityId": 3
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5133.0",
+      "id": "P_5133",
+      "communityId": 3
+    },
+    {
+      "entity": "File",
+      "label": "FD 8",
+      "id": "File_FD_8",
+      "communityId": 5
+    },
+    {
+      "entity": "File",
+      "label": "FD 7",
+      "id": "File_FD_7",
+      "communityId": 7
+    },
+    {
+      "entity": "File",
+      "label": "FD 9",
+      "id": "File_FD_9",
+      "communityId": 7
+    },
+    {
+      "entity": "Thread",
+      "label": "migration/2 (T_17)",
+      "id": "T_17",
+      "communityId": 0
+    },
+    {
+      "entity": "Process",
+      "label": "Process 17.0",
+      "id": "P_17",
+      "communityId": 0
+    },
+    {
+      "entity": "Thread",
+      "label": "sh (T_5134)",
+      "id": "T_5134",
+      "communityId": 2
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5134.0",
+      "id": "P_5134",
+      "communityId": 2
+    },
+    {
+      "entity": "Thread",
+      "label": "migration/0 (T_9)",
+      "id": "T_9",
+      "communityId": 0
+    },
+    {
+      "entity": "Process",
+      "label": "Process 9.0",
+      "id": "P_9",
+      "communityId": 0
+    },
+    {
+      "entity": "Thread",
+      "label": "php5 (T_5135)",
+      "id": "T_5135",
+      "communityId": 3
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5135.0",
+      "id": "P_5135",
+      "communityId": 3
+    },
+    {
+      "entity": "Thread",
+      "label": "sh (T_5136)",
+      "id": "T_5136",
+      "communityId": 2
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5136.0",
+      "id": "P_5136",
+      "communityId": 2
+    },
+    {
+      "entity": "File",
+      "label": "FD 4294967295",
+      "id": "File_FD_4294967295",
+      "communityId": 3
+    },
+    {
+      "entity": "Thread",
+      "label": "sh (T_5137)",
+      "id": "T_5137",
+      "communityId": 2
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5137.0",
+      "id": "P_5137",
+      "communityId": 2
+    },
+    {
+      "entity": "File",
+      "label": "FD=0",
+      "id": "File_0",
+      "communityId": 2
+    },
+    {
+      "entity": "Thread",
+      "label": "php5 (T_5138)",
+      "id": "T_5138",
+      "communityId": 3
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5138.0",
+      "id": "P_5138",
+      "communityId": 3
+    },
+    {
+      "entity": "Thread",
+      "label": "sh (T_5139)",
+      "id": "T_5139",
+      "communityId": 2
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5139.0",
+      "id": "P_5139",
+      "communityId": 2
+    },
+    {
+      "entity": "Thread",
+      "label": "php5 (T_5140)",
+      "id": "T_5140",
+      "communityId": 7
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5140.0",
+      "id": "P_5140",
+      "communityId": 7
+    },
+    {
+      "entity": "Thread",
+      "label": "sh (T_5141)",
+      "id": "T_5141",
+      "communityId": 2
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5141.0",
+      "id": "P_5141",
+      "communityId": 2
+    },
+    {
+      "entity": "Thread",
+      "label": "php5 (T_5142)",
+      "id": "T_5142",
+      "communityId": 3
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5142.0",
+      "id": "P_5142",
+      "communityId": 3
+    },
+    {
+      "entity": "Thread",
+      "label": "sh (T_5143)",
+      "id": "T_5143",
+      "communityId": 5
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5143.0",
+      "id": "P_5143",
+      "communityId": 5
+    },
+    {
+      "entity": "File",
+      "label": "FD=2",
+      "id": "File_2",
+      "communityId": 5
+    },
+    {
+      "entity": "Thread",
+      "label": "php5 (T_5144)",
+      "id": "T_5144",
+      "communityId": 6
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5144.0",
+      "id": "P_5144",
+      "communityId": 6
+    },
+    {
+      "entity": "Thread",
+      "label": "sh (T_5145)",
+      "id": "T_5145",
+      "communityId": 5
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5145.0",
+      "id": "P_5145",
+      "communityId": 5
+    },
+    {
+      "entity": "Thread",
+      "label": "php5 (T_5146)",
+      "id": "T_5146",
+      "communityId": 2
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5146.0",
+      "id": "P_5146",
+      "communityId": 2
+    },
+    {
+      "entity": "Thread",
+      "label": "sh (T_5147)",
+      "id": "T_5147",
+      "communityId": 2
+    },
+    {
+      "entity": "Process",
+      "label": "Process 5147.0",
+      "id": "P_5147",
+      "communityId": 2
+    }
+  ],
+  "links": [
+    {
+      "relationship": "switched_in",
+      "weight": 4,
+      "source": "CPU_3",
+      "target": "T_2208",
+      "key": "CPU_3_switched_in_T_2208"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 44,
+      "source": "CPU_3",
+      "target": "T_0",
+      "key": "CPU_3_switched_in_T_0"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 15,
+      "source": "CPU_3",
+      "target": "T_7",
+      "key": "CPU_3_switched_in_T_7"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 2,
+      "source": "CPU_3",
+      "target": "T_2559",
+      "key": "CPU_3_switched_in_T_2559"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 2,
+      "source": "CPU_3",
+      "target": "T_23",
+      "key": "CPU_3_switched_in_T_23"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_3",
+      "target": "T_5123",
+      "key": "CPU_3_switched_in_T_5123"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_3",
+      "target": "T_5125",
+      "key": "CPU_3_switched_in_T_5125"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 6,
+      "source": "CPU_3",
+      "target": "T_22",
+      "key": "CPU_3_switched_in_T_22"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_3",
+      "target": "T_5127",
+      "key": "CPU_3_switched_in_T_5127"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 2,
+      "source": "CPU_3",
+      "target": "T_5128",
+      "key": "CPU_3_switched_in_T_5128"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_3",
+      "target": "T_5129",
+      "key": "CPU_3_switched_in_T_5129"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 4,
+      "source": "CPU_3",
+      "target": "T_5130",
+      "key": "CPU_3_switched_in_T_5130"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_3",
+      "target": "T_577",
+      "key": "CPU_3_switched_in_T_577"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 2,
+      "source": "CPU_3",
+      "target": "T_5133",
+      "key": "CPU_3_switched_in_T_5133"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 3,
+      "source": "CPU_3",
+      "target": "T_5135",
+      "key": "CPU_3_switched_in_T_5135"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 2,
+      "source": "CPU_3",
+      "target": "T_5138",
+      "key": "CPU_3_switched_in_T_5138"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_3",
+      "target": "T_5140",
+      "key": "CPU_3_switched_in_T_5140"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_3",
+      "target": "T_5141",
+      "key": "CPU_3_switched_in_T_5141"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 2,
+      "source": "CPU_3",
+      "target": "T_5142",
+      "key": "CPU_3_switched_in_T_5142"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_3",
+      "target": "T_5144",
+      "key": "CPU_3_switched_in_T_5144"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_3",
+      "target": "T_5147",
+      "key": "CPU_3_switched_in_T_5147"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 44,
+      "source": "T_0",
+      "target": "CPU_3",
+      "key": "T_0_switched_out_CPU_3"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 23,
+      "source": "T_0",
+      "target": "CPU_3",
+      "key": "T_0_scheduled_to_wake_on_CPU_3"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 19,
+      "source": "T_0",
+      "target": "CPU_3",
+      "key": "T_0_wake_up_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 32,
+      "source": "T_0",
+      "target": "CPU_1",
+      "key": "T_0_switched_out_CPU_1"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 11,
+      "source": "T_0",
+      "target": "CPU_1",
+      "key": "T_0_wake_up_CPU_1"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 8,
+      "source": "T_0",
+      "target": "CPU_1",
+      "key": "T_0_scheduled_to_wake_on_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 131,
+      "source": "T_0",
+      "target": "CPU_2",
+      "key": "T_0_switched_out_CPU_2"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 210,
+      "source": "T_0",
+      "target": "CPU_2",
+      "key": "T_0_wake_up_CPU_2"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 208,
+      "source": "T_0",
+      "target": "CPU_2",
+      "key": "T_0_scheduled_to_wake_on_CPU_2"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 27,
+      "source": "T_0",
+      "target": "CPU_0",
+      "key": "T_0_switched_out_CPU_0"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 16,
+      "source": "T_0",
+      "target": "CPU_0",
+      "key": "T_0_scheduled_to_wake_on_CPU_0"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 15,
+      "source": "T_0",
+      "target": "CPU_0",
+      "key": "T_0_wake_up_CPU_0"
+    },
+    {
+      "relationship": "epoll_wait_exit",
+      "weight": 1,
+      "source": "T_2208",
+      "target": "File_140637496150960",
+      "key": "T_2208_epoll_wait_exit_File_140637496150960"
+    },
+    {
+      "relationship": "ioctl",
+      "weight": 393,
+      "cmd": "62981",
+      "source": "T_2208",
+      "target": "File_24",
+      "key": "T_2208_ioctl_File_24"
+    },
+    {
+      "relationship": "splice_in",
+      "weight": 98,
+      "source": "T_2208",
+      "target": "File_24",
+      "key": "T_2208_splice_in_File_24"
+    },
+    {
+      "relationship": "ioctl_exit",
+      "weight": 393,
+      "result": "0",
+      "source": "T_2208",
+      "target": "T_2208",
+      "key": "T_2208_ioctl_exit_T_2208"
+    },
+    {
+      "relationship": "splice_exit",
+      "weight": 196,
+      "result": "4096",
+      "source": "T_2208",
+      "target": "T_2208",
+      "key": "T_2208_splice_exit_T_2208"
+    },
+    {
+      "relationship": "sync_file_range_exit",
+      "weight": 196,
+      "result": "0",
+      "source": "T_2208",
+      "target": "T_2208",
+      "key": "T_2208_sync_file_range_exit_T_2208"
+    },
+    {
+      "relationship": "splice_out",
+      "weight": 98,
+      "source": "T_2208",
+      "target": "File_28",
+      "key": "T_2208_splice_out_File_28"
+    },
+    {
+      "relationship": "splice_in",
+      "weight": 98,
+      "source": "T_2208",
+      "target": "File_27",
+      "key": "T_2208_splice_in_File_27"
+    },
+    {
+      "relationship": "splice_out",
+      "weight": 98,
+      "source": "T_2208",
+      "target": "File_29",
+      "key": "T_2208_splice_out_File_29"
+    },
+    {
+      "relationship": "sync_file",
+      "weight": 196,
+      "source": "T_2208",
+      "target": "File_29",
+      "key": "T_2208_sync_file_File_29"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 4,
+      "runtime": "68528",
+      "source": "T_2208",
+      "target": "CPU_3",
+      "key": "T_2208_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 4,
+      "source": "T_2208",
+      "target": "CPU_3",
+      "key": "T_2208_switched_out_CPU_3"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_2208",
+      "target": "CPU_3",
+      "key": "T_2208_wake_up_CPU_3"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_2208",
+      "target": "CPU_0",
+      "key": "T_2208_scheduled_to_wake_on_CPU_0"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_2208",
+      "target": "CPU_0",
+      "key": "T_2208_wake_up_CPU_0"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 97,
+      "runtime": "67304",
+      "source": "T_2208",
+      "target": "CPU_2",
+      "key": "T_2208_runtime_stat_CPU_2"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 96,
+      "source": "T_2208",
+      "target": "CPU_2",
+      "key": "T_2208_switched_out_CPU_2"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_2208",
+      "target": "CPU_2",
+      "key": "T_2208_scheduled_to_wake_on_CPU_2"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 15,
+      "runtime": "3260",
+      "source": "T_7",
+      "target": "CPU_3",
+      "key": "T_7_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 15,
+      "source": "T_7",
+      "target": "CPU_3",
+      "key": "T_7_switched_out_CPU_3"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 10,
+      "runtime": "10959",
+      "source": "T_7",
+      "target": "CPU_0",
+      "key": "T_7_runtime_stat_CPU_0"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 10,
+      "source": "T_7",
+      "target": "CPU_0",
+      "key": "T_7_switched_out_CPU_0"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 15,
+      "runtime": "4772",
+      "source": "T_7",
+      "target": "CPU_2",
+      "key": "T_7_runtime_stat_CPU_2"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 15,
+      "source": "T_7",
+      "target": "CPU_2",
+      "key": "T_7_switched_out_CPU_2"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 5,
+      "runtime": "12255",
+      "source": "T_7",
+      "target": "CPU_1",
+      "key": "T_7_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 5,
+      "source": "T_7",
+      "target": "CPU_1",
+      "key": "T_7_switched_out_CPU_1"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_7",
+      "target": "T_7",
+      "key": 0
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 7,
+      "source": "CPU_0",
+      "target": "T_15322",
+      "key": "CPU_0_switched_in_T_15322"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 3,
+      "source": "CPU_0",
+      "target": "T_2186",
+      "key": "CPU_0_switched_in_T_2186"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 27,
+      "source": "CPU_0",
+      "target": "T_0",
+      "key": "CPU_0_switched_in_T_0"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 10,
+      "source": "CPU_0",
+      "target": "T_7",
+      "key": "CPU_0_switched_in_T_7"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_0",
+      "target": "T_5119",
+      "key": "CPU_0_switched_in_T_5119"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_0",
+      "target": "T_5134",
+      "key": "CPU_0_switched_in_T_5134"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 6,
+      "source": "CPU_0",
+      "target": "T_9",
+      "key": "CPU_0_switched_in_T_9"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_0",
+      "target": "T_5136",
+      "key": "CPU_0_switched_in_T_5136"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_0",
+      "target": "T_5137",
+      "key": "CPU_0_switched_in_T_5137"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_0",
+      "target": "T_5139",
+      "key": "CPU_0_switched_in_T_5139"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 2,
+      "source": "CPU_0",
+      "target": "T_5140",
+      "key": "CPU_0_switched_in_T_5140"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_0",
+      "target": "T_5143",
+      "key": "CPU_0_switched_in_T_5143"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 2,
+      "source": "CPU_0",
+      "target": "T_5144",
+      "key": "CPU_0_switched_in_T_5144"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_0",
+      "target": "T_5146",
+      "key": "CPU_0_switched_in_T_5146"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_0",
+      "target": "T_5147",
+      "key": "CPU_0_switched_in_T_5147"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 4,
+      "source": "T_2186",
+      "target": "CPU_0",
+      "key": "T_2186_switched_out_CPU_0"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_2186",
+      "target": "CPU_0",
+      "key": "T_2186_scheduled_to_wake_on_CPU_0"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 3,
+      "runtime": "1912",
+      "source": "T_2186",
+      "target": "CPU_0",
+      "key": "T_2186_runtime_stat_CPU_0"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_2186",
+      "target": "CPU_0",
+      "key": "T_2186_wake_up_CPU_0"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_2186",
+      "target": "CPU_1",
+      "key": "T_2186_scheduled_to_wake_on_CPU_1"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_2186",
+      "target": "CPU_1",
+      "key": "T_2186_wake_up_CPU_1"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_2186",
+      "target": "CPU_2",
+      "key": "T_2186_scheduled_to_wake_on_CPU_2"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_2186",
+      "target": "CPU_2",
+      "key": "T_2186_wake_up_CPU_2"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 2,
+      "source": "T_2186",
+      "target": "CPU_3",
+      "key": "T_2186_scheduled_to_wake_on_CPU_3"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 2,
+      "source": "T_2186",
+      "target": "CPU_3",
+      "key": "T_2186_wake_up_CPU_3"
+    },
+    {
+      "relationship": "ioctl_exit",
+      "weight": 2,
+      "result": "0",
+      "source": "T_2186",
+      "target": "T_2186",
+      "key": "T_2186_ioctl_exit_T_2186"
+    },
+    {
+      "relationship": "sendmsg_exit",
+      "weight": 1,
+      "result": "20",
+      "source": "T_2186",
+      "target": "T_2186",
+      "key": "T_2186_sendmsg_exit_T_2186"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 1,
+      "result": "0",
+      "source": "T_2186",
+      "target": "T_2186",
+      "key": "T_2186_close_exit_T_2186"
+    },
+    {
+      "relationship": "ioctl",
+      "weight": 1,
+      "cmd": "63048",
+      "source": "T_2186",
+      "target": "File_13",
+      "key": "T_2186_ioctl_File_13"
+    },
+    {
+      "relationship": "sendmsg_entry",
+      "weight": 1,
+      "source": "T_2186",
+      "target": "Socket_FD_46",
+      "key": "T_2186_sendmsg_entry_Socket_FD_46"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_2186",
+      "target": "File_FD_46",
+      "key": "T_2186_close_fd_File_FD_46"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 7,
+      "runtime": "741069",
+      "source": "T_15322",
+      "target": "CPU_0",
+      "key": "T_15322_runtime_stat_CPU_0"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 7,
+      "source": "T_15322",
+      "target": "CPU_0",
+      "key": "T_15322_switched_out_CPU_0"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_15322",
+      "target": "CPU_3",
+      "key": "T_15322_scheduled_to_wake_on_CPU_3"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_15322",
+      "target": "CPU_3",
+      "key": "T_15322_wake_up_CPU_3"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_15322",
+      "target": "T_15322",
+      "key": 0
+    },
+    {
+      "relationship": "contains",
+      "source": "P_2047",
+      "target": "T_2186",
+      "key": 0
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 3,
+      "source": "CPU_1",
+      "target": "T_5096",
+      "key": "CPU_1_switched_in_T_5096"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 32,
+      "source": "CPU_1",
+      "target": "T_0",
+      "key": "CPU_1_switched_in_T_0"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_1",
+      "target": "T_5124",
+      "key": "CPU_1_switched_in_T_5124"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 5,
+      "source": "CPU_1",
+      "target": "T_12",
+      "key": "CPU_1_switched_in_T_12"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 3,
+      "source": "CPU_1",
+      "target": "T_5125",
+      "key": "CPU_1_switched_in_T_5125"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_1",
+      "target": "T_5127",
+      "key": "CPU_1_switched_in_T_5127"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_1",
+      "target": "T_5129",
+      "key": "CPU_1_switched_in_T_5129"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 8,
+      "source": "CPU_1",
+      "target": "T_5130",
+      "key": "CPU_1_switched_in_T_5130"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 2,
+      "source": "CPU_1",
+      "target": "T_5131",
+      "key": "CPU_1_switched_in_T_5131"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_1",
+      "target": "T_5132",
+      "key": "CPU_1_switched_in_T_5132"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_1",
+      "target": "T_4740",
+      "key": "CPU_1_switched_in_T_4740"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 5,
+      "source": "CPU_1",
+      "target": "T_7",
+      "key": "CPU_1_switched_in_T_7"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_1",
+      "target": "T_5134",
+      "key": "CPU_1_switched_in_T_5134"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_1",
+      "target": "T_5136",
+      "key": "CPU_1_switched_in_T_5136"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_1",
+      "target": "T_5137",
+      "key": "CPU_1_switched_in_T_5137"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_1",
+      "target": "T_5139",
+      "key": "CPU_1_switched_in_T_5139"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_1",
+      "target": "T_5141",
+      "key": "CPU_1_switched_in_T_5141"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_1",
+      "target": "T_5143",
+      "key": "CPU_1_switched_in_T_5143"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_1",
+      "target": "T_5145",
+      "key": "CPU_1_switched_in_T_5145"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_1",
+      "target": "T_5146",
+      "key": "CPU_1_switched_in_T_5146"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 2,
+      "source": "CPU_2",
+      "target": "T_11873",
+      "key": "CPU_2_switched_in_T_11873"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 131,
+      "source": "CPU_2",
+      "target": "T_0",
+      "key": "CPU_2_switched_in_T_0"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_2",
+      "target": "T_5124",
+      "key": "CPU_2_switched_in_T_5124"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_2",
+      "target": "T_5126",
+      "key": "CPU_2_switched_in_T_5126"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 3,
+      "source": "CPU_2",
+      "target": "T_5125",
+      "key": "CPU_2_switched_in_T_5125"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 3,
+      "source": "CPU_2",
+      "target": "T_5130",
+      "key": "CPU_2_switched_in_T_5130"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 15,
+      "source": "CPU_2",
+      "target": "T_7",
+      "key": "CPU_2_switched_in_T_7"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_2",
+      "target": "T_5132",
+      "key": "CPU_2_switched_in_T_5132"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 2,
+      "source": "CPU_2",
+      "target": "T_18",
+      "key": "CPU_2_switched_in_T_18"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 100,
+      "source": "CPU_2",
+      "target": "T_129",
+      "key": "CPU_2_switched_in_T_129"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 96,
+      "source": "CPU_2",
+      "target": "T_2208",
+      "key": "CPU_2_switched_in_T_2208"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_2",
+      "target": "T_5133",
+      "key": "CPU_2_switched_in_T_5133"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 4,
+      "source": "CPU_2",
+      "target": "T_17",
+      "key": "CPU_2_switched_in_T_17"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_2",
+      "target": "T_5135",
+      "key": "CPU_2_switched_in_T_5135"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_2",
+      "target": "T_5138",
+      "key": "CPU_2_switched_in_T_5138"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_2",
+      "target": "T_5142",
+      "key": "CPU_2_switched_in_T_5142"
+    },
+    {
+      "relationship": "switched_in",
+      "weight": 1,
+      "source": "CPU_2",
+      "target": "T_5145",
+      "key": "CPU_2_switched_in_T_5145"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 3,
+      "runtime": "15758",
+      "source": "T_5096",
+      "target": "CPU_1",
+      "key": "T_5096_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 3,
+      "source": "T_5096",
+      "target": "CPU_1",
+      "key": "T_5096_switched_out_CPU_1"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5096",
+      "target": "CPU_2",
+      "key": "T_5096_scheduled_to_wake_on_CPU_2"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5096",
+      "target": "CPU_2",
+      "key": "T_5096_wake_up_CPU_2"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5096",
+      "target": "CPU_3",
+      "key": "T_5096_scheduled_to_wake_on_CPU_3"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5096",
+      "target": "CPU_3",
+      "key": "T_5096_wake_up_CPU_3"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5096",
+      "target": "T_5096",
+      "key": 0
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_2559",
+      "target": "CPU_0",
+      "key": "T_2559_scheduled_to_wake_on_CPU_0"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_2559",
+      "target": "CPU_0",
+      "key": "T_2559_wake_up_CPU_0"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 2,
+      "runtime": "33772",
+      "source": "T_2559",
+      "target": "CPU_3",
+      "key": "T_2559_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 2,
+      "source": "T_2559",
+      "target": "CPU_3",
+      "key": "T_2559_switched_out_CPU_3"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 2,
+      "runtime": "33237",
+      "source": "T_11873",
+      "target": "CPU_2",
+      "key": "T_11873_runtime_stat_CPU_2"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 2,
+      "source": "T_11873",
+      "target": "CPU_2",
+      "key": "T_11873_switched_out_CPU_2"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_11873",
+      "target": "T_11873",
+      "key": 0
+    },
+    {
+      "relationship": "contains",
+      "source": "P_2559",
+      "target": "T_2559",
+      "key": 0
+    },
+    {
+      "relationship": "process_freed",
+      "weight": 1,
+      "status": "terminated",
+      "source": "T_5122",
+      "target": "CPU_0",
+      "key": "T_5122_process_freed_CPU_0"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 2,
+      "runtime": "17231",
+      "source": "T_23",
+      "target": "CPU_3",
+      "key": "T_23_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 2,
+      "source": "T_23",
+      "target": "CPU_3",
+      "key": "T_23_switched_out_CPU_3"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_23",
+      "target": "T_23",
+      "key": 0
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5123",
+      "target": "File_FD_3",
+      "key": "T_5123_close_fd_File_FD_3"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 1,
+      "result": "0",
+      "source": "T_5123",
+      "target": "T_5123",
+      "key": "T_5123_close_exit_T_5123"
+    },
+    {
+      "relationship": "ioctl_exit",
+      "weight": 1,
+      "result": "0",
+      "source": "T_5123",
+      "target": "T_5123",
+      "key": "T_5123_ioctl_exit_T_5123"
+    },
+    {
+      "relationship": "ioctl",
+      "weight": 1,
+      "cmd": "21505",
+      "source": "T_5123",
+      "target": "File_1",
+      "key": "T_5123_ioctl_File_1"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5123",
+      "target": "CPU_0",
+      "key": "T_5123_scheduled_to_wake_on_CPU_0"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5123",
+      "target": "CPU_0",
+      "key": "T_5123_wake_up_CPU_0"
+    },
+    {
+      "relationship": "process_freed",
+      "weight": 1,
+      "status": "terminated",
+      "source": "T_5123",
+      "target": "CPU_0",
+      "key": "T_5123_process_freed_CPU_0"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "396845",
+      "source": "T_5123",
+      "target": "CPU_3",
+      "key": "T_5123_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5123",
+      "target": "CPU_3",
+      "key": "T_5123_switched_out_CPU_3"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5123",
+      "target": "T_5123",
+      "key": 0
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 2,
+      "runtime": "103633",
+      "source": "T_5119",
+      "target": "CPU_0",
+      "key": "T_5119_runtime_stat_CPU_0"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5119",
+      "target": "CPU_0",
+      "key": "T_5119_switched_out_CPU_0"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5119",
+      "target": "T_5119",
+      "key": 0
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5124",
+      "target": "File_FD_255",
+      "key": "T_5124_close_fd_File_FD_255"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 3,
+      "result": "0",
+      "source": "T_5124",
+      "target": "T_5124",
+      "key": "T_5124_close_exit_T_5124"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5124",
+      "target": "CPU_1",
+      "key": "T_5124_scheduled_to_wake_on_CPU_1"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5124",
+      "target": "CPU_1",
+      "key": "T_5124_wake_up_CPU_1"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "92621",
+      "source": "T_5124",
+      "target": "CPU_1",
+      "key": "T_5124_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5124",
+      "target": "CPU_1",
+      "key": "T_5124_switched_out_CPU_1"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 2,
+      "source": "T_5124",
+      "target": "File_FD_3",
+      "key": "T_5124_close_fd_File_FD_3"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 2,
+      "runtime": "348007",
+      "source": "T_5124",
+      "target": "CPU_2",
+      "key": "T_5124_runtime_stat_CPU_2"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5124",
+      "target": "CPU_2",
+      "key": "T_5124_switched_out_CPU_2"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5124",
+      "target": "T_5124",
+      "key": 0
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 5,
+      "source": "T_12",
+      "target": "CPU_1",
+      "key": "T_12_switched_out_CPU_1"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_12",
+      "target": "T_12",
+      "key": 0
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5125",
+      "target": "CPU_3",
+      "key": "T_5125_scheduled_to_wake_on_CPU_3"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5125",
+      "target": "CPU_3",
+      "key": "T_5125_wake_up_CPU_3"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "60179",
+      "source": "T_5125",
+      "target": "CPU_3",
+      "key": "T_5125_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5125",
+      "target": "CPU_3",
+      "key": "T_5125_switched_out_CPU_3"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 6,
+      "source": "T_5125",
+      "target": "File_FD_4",
+      "key": "T_5125_close_fd_File_FD_4"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 8,
+      "result": "0",
+      "source": "T_5125",
+      "target": "T_5125",
+      "key": "T_5125_close_exit_T_5125"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 5,
+      "runtime": "353865",
+      "source": "T_5125",
+      "target": "CPU_1",
+      "key": "T_5125_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 3,
+      "source": "T_5125",
+      "target": "CPU_1",
+      "key": "T_5125_switched_out_CPU_1"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 2,
+      "source": "T_5125",
+      "target": "File_FD_5",
+      "key": "T_5125_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 5,
+      "runtime": "134782",
+      "source": "T_5125",
+      "target": "CPU_2",
+      "key": "T_5125_runtime_stat_CPU_2"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 3,
+      "source": "T_5125",
+      "target": "CPU_2",
+      "key": "T_5125_switched_out_CPU_2"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5125",
+      "target": "T_5125",
+      "key": 0
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 6,
+      "source": "T_22",
+      "target": "CPU_3",
+      "key": "T_22_switched_out_CPU_3"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_22",
+      "target": "T_22",
+      "key": 0
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5126",
+      "target": "File_FD_10",
+      "key": "T_5126_close_fd_File_FD_10"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 3,
+      "result": "0",
+      "source": "T_5126",
+      "target": "T_5126",
+      "key": "T_5126_close_exit_T_5126"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5126",
+      "target": "File_FD_4",
+      "key": "T_5126_close_fd_File_FD_4"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5126",
+      "target": "File_FD_5",
+      "key": "T_5126_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 2,
+      "source": "T_5126",
+      "target": "CPU_1",
+      "key": "T_5126_scheduled_to_wake_on_CPU_1"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 2,
+      "source": "T_5126",
+      "target": "CPU_1",
+      "key": "T_5126_wake_up_CPU_1"
+    },
+    {
+      "relationship": "process_freed",
+      "weight": 1,
+      "status": "terminated",
+      "source": "T_5126",
+      "target": "CPU_1",
+      "key": "T_5126_process_freed_CPU_1"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "121573",
+      "source": "T_5126",
+      "target": "CPU_2",
+      "key": "T_5126_runtime_stat_CPU_2"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5126",
+      "target": "CPU_2",
+      "key": "T_5126_switched_out_CPU_2"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5126",
+      "target": "T_5126",
+      "key": 0
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5127",
+      "target": "File_FD_10",
+      "key": "T_5127_close_fd_File_FD_10"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 4,
+      "result": "0",
+      "source": "T_5127",
+      "target": "T_5127",
+      "key": "T_5127_close_exit_T_5127"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5127",
+      "target": "CPU_3",
+      "key": "T_5127_scheduled_to_wake_on_CPU_3"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5127",
+      "target": "CPU_3",
+      "key": "T_5127_wake_up_CPU_3"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "49447",
+      "source": "T_5127",
+      "target": "CPU_3",
+      "key": "T_5127_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5127",
+      "target": "CPU_3",
+      "key": "T_5127_switched_out_CPU_3"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 3,
+      "source": "T_5127",
+      "target": "File_FD_4",
+      "key": "T_5127_close_fd_File_FD_4"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5127",
+      "target": "CPU_1",
+      "key": "T_5127_scheduled_to_wake_on_CPU_1"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "361659",
+      "source": "T_5127",
+      "target": "CPU_1",
+      "key": "T_5127_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5127",
+      "target": "CPU_1",
+      "key": "T_5127_switched_out_CPU_1"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5127",
+      "target": "CPU_2",
+      "key": "T_5127_wake_up_CPU_2"
+    },
+    {
+      "relationship": "process_freed",
+      "weight": 1,
+      "status": "terminated",
+      "source": "T_5127",
+      "target": "CPU_2",
+      "key": "T_5127_process_freed_CPU_2"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5127",
+      "target": "T_5127",
+      "key": 0
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 2,
+      "source": "T_5128",
+      "target": "File_FD_10",
+      "key": "T_5128_close_fd_File_FD_10"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 6,
+      "result": "0",
+      "source": "T_5128",
+      "target": "T_5128",
+      "key": "T_5128_close_exit_T_5128"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 2,
+      "source": "T_5128",
+      "target": "File_FD_4",
+      "key": "T_5128_close_fd_File_FD_4"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5128",
+      "target": "File_FD_5",
+      "key": "T_5128_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5128",
+      "target": "File_FD_2",
+      "key": "T_5128_close_fd_File_FD_2"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 4,
+      "runtime": "70965",
+      "source": "T_5128",
+      "target": "CPU_3",
+      "key": "T_5128_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 2,
+      "source": "T_5128",
+      "target": "CPU_3",
+      "key": "T_5128_switched_out_CPU_3"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5128",
+      "target": "CPU_2",
+      "key": "T_5128_scheduled_to_wake_on_CPU_2"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5128",
+      "target": "CPU_2",
+      "key": "T_5128_wake_up_CPU_2"
+    },
+    {
+      "relationship": "process_freed",
+      "weight": 1,
+      "status": "terminated",
+      "source": "T_5128",
+      "target": "CPU_2",
+      "key": "T_5128_process_freed_CPU_2"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5128",
+      "target": "T_5128",
+      "key": 0
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 2,
+      "source": "T_5129",
+      "target": "CPU_3",
+      "key": "T_5129_scheduled_to_wake_on_CPU_3"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 2,
+      "source": "T_5129",
+      "target": "CPU_3",
+      "key": "T_5129_wake_up_CPU_3"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "30790",
+      "source": "T_5129",
+      "target": "CPU_3",
+      "key": "T_5129_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5129",
+      "target": "CPU_3",
+      "key": "T_5129_switched_out_CPU_3"
+    },
+    {
+      "relationship": "process_freed",
+      "weight": 1,
+      "status": "terminated",
+      "source": "T_5129",
+      "target": "CPU_3",
+      "key": "T_5129_process_freed_CPU_3"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 4,
+      "source": "T_5129",
+      "target": "File_FD_4",
+      "key": "T_5129_close_fd_File_FD_4"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 6,
+      "result": "0",
+      "source": "T_5129",
+      "target": "T_5129",
+      "key": "T_5129_close_exit_T_5129"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5129",
+      "target": "CPU_2",
+      "key": "T_5129_scheduled_to_wake_on_CPU_2"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5129",
+      "target": "CPU_2",
+      "key": "T_5129_wake_up_CPU_2"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5129",
+      "target": "File_FD_1",
+      "key": "T_5129_close_fd_File_FD_1"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5129",
+      "target": "File_FD_2",
+      "key": "T_5129_close_fd_File_FD_2"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "448304",
+      "source": "T_5129",
+      "target": "CPU_1",
+      "key": "T_5129_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5129",
+      "target": "CPU_1",
+      "key": "T_5129_switched_out_CPU_1"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5129",
+      "target": "T_5129",
+      "key": 0
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 4,
+      "source": "T_5130",
+      "target": "File_FD_10",
+      "key": "T_5130_close_fd_File_FD_10"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 243,
+      "result": "0",
+      "source": "T_5130",
+      "target": "T_5130",
+      "key": "T_5130_close_exit_T_5130"
+    },
+    {
+      "relationship": "ioctl_exit",
+      "weight": 8,
+      "result": "-25",
+      "source": "T_5130",
+      "target": "T_5130",
+      "key": "T_5130_ioctl_exit_T_5130"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 2,
+      "source": "T_5130",
+      "target": "CPU_1",
+      "key": "T_5130_scheduled_to_wake_on_CPU_1"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5130",
+      "target": "CPU_1",
+      "key": "T_5130_wake_up_CPU_1"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 20,
+      "runtime": "52504",
+      "source": "T_5130",
+      "target": "CPU_1",
+      "key": "T_5130_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 8,
+      "source": "T_5130",
+      "target": "CPU_1",
+      "key": "T_5130_switched_out_CPU_1"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 159,
+      "source": "T_5130",
+      "target": "File_FD_4",
+      "key": "T_5130_close_fd_File_FD_4"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 7,
+      "runtime": "858741",
+      "source": "T_5130",
+      "target": "CPU_2",
+      "key": "T_5130_runtime_stat_CPU_2"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 3,
+      "source": "T_5130",
+      "target": "CPU_2",
+      "key": "T_5130_switched_out_CPU_2"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 3,
+      "source": "T_5130",
+      "target": "CPU_2",
+      "key": "T_5130_wake_up_CPU_2"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 2,
+      "source": "T_5130",
+      "target": "CPU_2",
+      "key": "T_5130_scheduled_to_wake_on_CPU_2"
+    },
+    {
+      "relationship": "ioctl",
+      "weight": 8,
+      "cmd": "21505",
+      "source": "T_5130",
+      "target": "File_4",
+      "key": "T_5130_ioctl_File_4"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 60,
+      "source": "T_5130",
+      "target": "File_FD_5",
+      "key": "T_5130_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 8,
+      "runtime": "30242",
+      "source": "T_5130",
+      "target": "CPU_3",
+      "key": "T_5130_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 4,
+      "source": "T_5130",
+      "target": "CPU_3",
+      "key": "T_5130_switched_out_CPU_3"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 11,
+      "source": "T_5130",
+      "target": "File_FD_6",
+      "key": "T_5130_close_fd_File_FD_6"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 3,
+      "source": "T_5130",
+      "target": "File_FD_8",
+      "key": "T_5130_close_fd_File_FD_8"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 3,
+      "source": "T_5130",
+      "target": "File_FD_7",
+      "key": "T_5130_close_fd_File_FD_7"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 3,
+      "source": "T_5130",
+      "target": "File_FD_9",
+      "key": "T_5130_close_fd_File_FD_9"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5130",
+      "target": "T_5130",
+      "key": 0
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 3,
+      "source": "T_5131",
+      "target": "File_FD_4",
+      "key": "T_5131_close_fd_File_FD_4"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 5,
+      "result": "0",
+      "source": "T_5131",
+      "target": "T_5131",
+      "key": "T_5131_close_exit_T_5131"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5131",
+      "target": "File_FD_2",
+      "key": "T_5131_close_fd_File_FD_2"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 5,
+      "runtime": "485478",
+      "source": "T_5131",
+      "target": "CPU_1",
+      "key": "T_5131_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 2,
+      "source": "T_5131",
+      "target": "CPU_1",
+      "key": "T_5131_switched_out_CPU_1"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5131",
+      "target": "File_FD_10",
+      "key": "T_5131_close_fd_File_FD_10"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5131",
+      "target": "CPU_3",
+      "key": "T_5131_scheduled_to_wake_on_CPU_3"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5131",
+      "target": "CPU_3",
+      "key": "T_5131_wake_up_CPU_3"
+    },
+    {
+      "relationship": "process_freed",
+      "weight": 1,
+      "status": "terminated",
+      "source": "T_5131",
+      "target": "CPU_3",
+      "key": "T_5131_process_freed_CPU_3"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5131",
+      "target": "T_5131",
+      "key": 0
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 2,
+      "source": "T_5132",
+      "target": "CPU_1",
+      "key": "T_5132_scheduled_to_wake_on_CPU_1"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 2,
+      "source": "T_5132",
+      "target": "CPU_1",
+      "key": "T_5132_wake_up_CPU_1"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "28265",
+      "source": "T_5132",
+      "target": "CPU_1",
+      "key": "T_5132_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5132",
+      "target": "CPU_1",
+      "key": "T_5132_switched_out_CPU_1"
+    },
+    {
+      "relationship": "process_freed",
+      "weight": 1,
+      "status": "terminated",
+      "source": "T_5132",
+      "target": "CPU_1",
+      "key": "T_5132_process_freed_CPU_1"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 4,
+      "source": "T_5132",
+      "target": "File_FD_4",
+      "key": "T_5132_close_fd_File_FD_4"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 6,
+      "result": "0",
+      "source": "T_5132",
+      "target": "T_5132",
+      "key": "T_5132_close_exit_T_5132"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5132",
+      "target": "CPU_2",
+      "key": "T_5132_scheduled_to_wake_on_CPU_2"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "361785",
+      "source": "T_5132",
+      "target": "CPU_2",
+      "key": "T_5132_runtime_stat_CPU_2"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5132",
+      "target": "CPU_2",
+      "key": "T_5132_switched_out_CPU_2"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5132",
+      "target": "CPU_3",
+      "key": "T_5132_wake_up_CPU_3"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5132",
+      "target": "File_FD_1",
+      "key": "T_5132_close_fd_File_FD_1"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5132",
+      "target": "File_FD_2",
+      "key": "T_5132_close_fd_File_FD_2"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5132",
+      "target": "T_5132",
+      "key": 0
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 2,
+      "runtime": "18795",
+      "source": "T_18",
+      "target": "CPU_2",
+      "key": "T_18_runtime_stat_CPU_2"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 2,
+      "source": "T_18",
+      "target": "CPU_2",
+      "key": "T_18_switched_out_CPU_2"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_18",
+      "target": "T_18",
+      "key": 0
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 100,
+      "runtime": "3974",
+      "source": "T_129",
+      "target": "CPU_2",
+      "key": "T_129_runtime_stat_CPU_2"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 100,
+      "source": "T_129",
+      "target": "CPU_2",
+      "key": "T_129_switched_out_CPU_2"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_129",
+      "target": "T_129",
+      "key": 0
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "7038",
+      "source": "T_4740",
+      "target": "CPU_1",
+      "key": "T_4740_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_4740",
+      "target": "CPU_1",
+      "key": "T_4740_switched_out_CPU_1"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_4740",
+      "target": "T_4740",
+      "key": 0
+    },
+    {
+      "relationship": "contains",
+      "source": "P_2203",
+      "target": "T_2208",
+      "key": 0
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "44173",
+      "source": "T_577",
+      "target": "CPU_3",
+      "key": "T_577_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_577",
+      "target": "CPU_3",
+      "key": "T_577_switched_out_CPU_3"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_509",
+      "target": "T_577",
+      "key": 0
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5133",
+      "target": "File_FD_6",
+      "key": "T_5133_close_fd_File_FD_6"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 8,
+      "result": "0",
+      "source": "T_5133",
+      "target": "T_5133",
+      "key": "T_5133_close_exit_T_5133"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 3,
+      "source": "T_5133",
+      "target": "File_FD_5",
+      "key": "T_5133_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5133",
+      "target": "File_FD_7",
+      "key": "T_5133_close_fd_File_FD_7"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5133",
+      "target": "File_FD_8",
+      "key": "T_5133_close_fd_File_FD_8"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5133",
+      "target": "File_FD_9",
+      "key": "T_5133_close_fd_File_FD_9"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5133",
+      "target": "File_FD_10",
+      "key": "T_5133_close_fd_File_FD_10"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5133",
+      "target": "CPU_2",
+      "key": "T_5133_scheduled_to_wake_on_CPU_2"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5133",
+      "target": "CPU_2",
+      "key": "T_5133_wake_up_CPU_2"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "138049",
+      "source": "T_5133",
+      "target": "CPU_2",
+      "key": "T_5133_runtime_stat_CPU_2"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5133",
+      "target": "CPU_2",
+      "key": "T_5133_switched_out_CPU_2"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 3,
+      "runtime": "555259",
+      "source": "T_5133",
+      "target": "CPU_3",
+      "key": "T_5133_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 2,
+      "source": "T_5133",
+      "target": "CPU_3",
+      "key": "T_5133_switched_out_CPU_3"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5133",
+      "target": "CPU_1",
+      "key": "T_5133_scheduled_to_wake_on_CPU_1"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5133",
+      "target": "CPU_1",
+      "key": "T_5133_wake_up_CPU_1"
+    },
+    {
+      "relationship": "process_freed",
+      "weight": 1,
+      "status": "terminated",
+      "source": "T_5133",
+      "target": "CPU_1",
+      "key": "T_5133_process_freed_CPU_1"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5133",
+      "target": "T_5133",
+      "key": 0
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 4,
+      "source": "T_17",
+      "target": "CPU_2",
+      "key": "T_17_switched_out_CPU_2"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_17",
+      "target": "T_17",
+      "key": 0
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5134",
+      "target": "CPU_0",
+      "key": "T_5134_scheduled_to_wake_on_CPU_0"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5134",
+      "target": "CPU_0",
+      "key": "T_5134_wake_up_CPU_0"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "50973",
+      "source": "T_5134",
+      "target": "CPU_0",
+      "key": "T_5134_runtime_stat_CPU_0"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5134",
+      "target": "CPU_0",
+      "key": "T_5134_switched_out_CPU_0"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 32,
+      "source": "T_5134",
+      "target": "File_FD_5",
+      "key": "T_5134_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 32,
+      "result": "0",
+      "source": "T_5134",
+      "target": "T_5134",
+      "key": "T_5134_close_exit_T_5134"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5134",
+      "target": "CPU_3",
+      "key": "T_5134_scheduled_to_wake_on_CPU_3"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5134",
+      "target": "CPU_3",
+      "key": "T_5134_wake_up_CPU_3"
+    },
+    {
+      "relationship": "process_freed",
+      "weight": 1,
+      "status": "terminated",
+      "source": "T_5134",
+      "target": "CPU_3",
+      "key": "T_5134_process_freed_CPU_3"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "2284153",
+      "source": "T_5134",
+      "target": "CPU_1",
+      "key": "T_5134_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5134",
+      "target": "CPU_1",
+      "key": "T_5134_switched_out_CPU_1"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5134",
+      "target": "T_5134",
+      "key": 0
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 6,
+      "source": "T_9",
+      "target": "CPU_0",
+      "key": "T_9_switched_out_CPU_0"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "35459",
+      "source": "T_9",
+      "target": "CPU_0",
+      "key": "T_9_runtime_stat_CPU_0"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_9",
+      "target": "T_9",
+      "key": 0
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5135",
+      "target": "CPU_2",
+      "key": "T_5135_scheduled_to_wake_on_CPU_2"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5135",
+      "target": "CPU_2",
+      "key": "T_5135_wake_up_CPU_2"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "53033",
+      "source": "T_5135",
+      "target": "CPU_2",
+      "key": "T_5135_runtime_stat_CPU_2"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5135",
+      "target": "CPU_2",
+      "key": "T_5135_switched_out_CPU_2"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 3,
+      "source": "T_5135",
+      "target": "File_FD_5",
+      "key": "T_5135_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 5,
+      "result": "0",
+      "source": "T_5135",
+      "target": "T_5135",
+      "key": "T_5135_close_exit_T_5135"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 6,
+      "runtime": "491513",
+      "source": "T_5135",
+      "target": "CPU_3",
+      "key": "T_5135_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 3,
+      "source": "T_5135",
+      "target": "CPU_3",
+      "key": "T_5135_switched_out_CPU_3"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5135",
+      "target": "File_FD_6",
+      "key": "T_5135_close_fd_File_FD_6"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5135",
+      "target": "File_FD_4294967295",
+      "key": "T_5135_close_fd_File_FD_4294967295"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5135",
+      "target": "CPU_1",
+      "key": "T_5135_scheduled_to_wake_on_CPU_1"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5135",
+      "target": "CPU_1",
+      "key": "T_5135_wake_up_CPU_1"
+    },
+    {
+      "relationship": "process_freed",
+      "weight": 1,
+      "status": "terminated",
+      "source": "T_5135",
+      "target": "CPU_1",
+      "key": "T_5135_process_freed_CPU_1"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5135",
+      "target": "T_5135",
+      "key": 0
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 33,
+      "source": "T_5136",
+      "target": "File_FD_5",
+      "key": "T_5136_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 35,
+      "result": "0",
+      "source": "T_5136",
+      "target": "T_5136",
+      "key": "T_5136_close_exit_T_5136"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5136",
+      "target": "File_FD_6",
+      "key": "T_5136_close_fd_File_FD_6"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5136",
+      "target": "File_FD_2",
+      "key": "T_5136_close_fd_File_FD_2"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5136",
+      "target": "CPU_0",
+      "key": "T_5136_scheduled_to_wake_on_CPU_0"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5136",
+      "target": "CPU_0",
+      "key": "T_5136_wake_up_CPU_0"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "22945",
+      "source": "T_5136",
+      "target": "CPU_0",
+      "key": "T_5136_runtime_stat_CPU_0"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5136",
+      "target": "CPU_0",
+      "key": "T_5136_switched_out_CPU_0"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5136",
+      "target": "CPU_3",
+      "key": "T_5136_scheduled_to_wake_on_CPU_3"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5136",
+      "target": "CPU_3",
+      "key": "T_5136_wake_up_CPU_3"
+    },
+    {
+      "relationship": "process_freed",
+      "weight": 1,
+      "status": "terminated",
+      "source": "T_5136",
+      "target": "CPU_3",
+      "key": "T_5136_process_freed_CPU_3"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "1897280",
+      "source": "T_5136",
+      "target": "CPU_1",
+      "key": "T_5136_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5136",
+      "target": "CPU_1",
+      "key": "T_5136_switched_out_CPU_1"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5136",
+      "target": "T_5136",
+      "key": 0
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 9,
+      "source": "T_5137",
+      "target": "File_FD_5",
+      "key": "T_5137_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 11,
+      "result": "0",
+      "source": "T_5137",
+      "target": "T_5137",
+      "key": "T_5137_close_exit_T_5137"
+    },
+    {
+      "relationship": "ioctl_exit",
+      "weight": 2,
+      "result": "-25",
+      "source": "T_5137",
+      "target": "T_5137",
+      "key": "T_5137_ioctl_exit_T_5137"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5137",
+      "target": "CPU_0",
+      "key": "T_5137_scheduled_to_wake_on_CPU_0"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5137",
+      "target": "CPU_0",
+      "key": "T_5137_wake_up_CPU_0"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "32929",
+      "source": "T_5137",
+      "target": "CPU_0",
+      "key": "T_5137_runtime_stat_CPU_0"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5137",
+      "target": "CPU_0",
+      "key": "T_5137_switched_out_CPU_0"
+    },
+    {
+      "relationship": "ioctl",
+      "weight": 1,
+      "cmd": "21505",
+      "source": "T_5137",
+      "target": "File_1",
+      "key": "T_5137_ioctl_File_1"
+    },
+    {
+      "relationship": "ioctl",
+      "weight": 1,
+      "cmd": "21505",
+      "source": "T_5137",
+      "target": "File_0",
+      "key": "T_5137_ioctl_File_0"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5137",
+      "target": "File_FD_1",
+      "key": "T_5137_close_fd_File_FD_1"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5137",
+      "target": "File_FD_2",
+      "key": "T_5137_close_fd_File_FD_2"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5137",
+      "target": "CPU_3",
+      "key": "T_5137_scheduled_to_wake_on_CPU_3"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5137",
+      "target": "CPU_3",
+      "key": "T_5137_wake_up_CPU_3"
+    },
+    {
+      "relationship": "process_freed",
+      "weight": 1,
+      "status": "terminated",
+      "source": "T_5137",
+      "target": "CPU_3",
+      "key": "T_5137_process_freed_CPU_3"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "486602",
+      "source": "T_5137",
+      "target": "CPU_1",
+      "key": "T_5137_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5137",
+      "target": "CPU_1",
+      "key": "T_5137_switched_out_CPU_1"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5137",
+      "target": "T_5137",
+      "key": 0
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5138",
+      "target": "File_FD_6",
+      "key": "T_5138_close_fd_File_FD_6"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 8,
+      "result": "0",
+      "source": "T_5138",
+      "target": "T_5138",
+      "key": "T_5138_close_exit_T_5138"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 3,
+      "source": "T_5138",
+      "target": "File_FD_5",
+      "key": "T_5138_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5138",
+      "target": "File_FD_7",
+      "key": "T_5138_close_fd_File_FD_7"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5138",
+      "target": "File_FD_8",
+      "key": "T_5138_close_fd_File_FD_8"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5138",
+      "target": "File_FD_9",
+      "key": "T_5138_close_fd_File_FD_9"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5138",
+      "target": "File_FD_10",
+      "key": "T_5138_close_fd_File_FD_10"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5138",
+      "target": "CPU_2",
+      "key": "T_5138_scheduled_to_wake_on_CPU_2"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5138",
+      "target": "CPU_2",
+      "key": "T_5138_wake_up_CPU_2"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "112033",
+      "source": "T_5138",
+      "target": "CPU_2",
+      "key": "T_5138_runtime_stat_CPU_2"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5138",
+      "target": "CPU_2",
+      "key": "T_5138_switched_out_CPU_2"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 4,
+      "runtime": "308805",
+      "source": "T_5138",
+      "target": "CPU_3",
+      "key": "T_5138_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 2,
+      "source": "T_5138",
+      "target": "CPU_3",
+      "key": "T_5138_switched_out_CPU_3"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5138",
+      "target": "CPU_1",
+      "key": "T_5138_scheduled_to_wake_on_CPU_1"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5138",
+      "target": "CPU_1",
+      "key": "T_5138_wake_up_CPU_1"
+    },
+    {
+      "relationship": "process_freed",
+      "weight": 1,
+      "status": "terminated",
+      "source": "T_5138",
+      "target": "CPU_1",
+      "key": "T_5138_process_freed_CPU_1"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5138",
+      "target": "T_5138",
+      "key": 0
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5139",
+      "target": "CPU_0",
+      "key": "T_5139_scheduled_to_wake_on_CPU_0"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5139",
+      "target": "CPU_0",
+      "key": "T_5139_wake_up_CPU_0"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "49889",
+      "source": "T_5139",
+      "target": "CPU_0",
+      "key": "T_5139_runtime_stat_CPU_0"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5139",
+      "target": "CPU_0",
+      "key": "T_5139_switched_out_CPU_0"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 32,
+      "source": "T_5139",
+      "target": "File_FD_5",
+      "key": "T_5139_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 32,
+      "result": "0",
+      "source": "T_5139",
+      "target": "T_5139",
+      "key": "T_5139_close_exit_T_5139"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5139",
+      "target": "CPU_3",
+      "key": "T_5139_scheduled_to_wake_on_CPU_3"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5139",
+      "target": "CPU_3",
+      "key": "T_5139_wake_up_CPU_3"
+    },
+    {
+      "relationship": "process_freed",
+      "weight": 1,
+      "status": "terminated",
+      "source": "T_5139",
+      "target": "CPU_3",
+      "key": "T_5139_process_freed_CPU_3"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "1887855",
+      "source": "T_5139",
+      "target": "CPU_1",
+      "key": "T_5139_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5139",
+      "target": "CPU_1",
+      "key": "T_5139_switched_out_CPU_1"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5139",
+      "target": "T_5139",
+      "key": 0
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5140",
+      "target": "File_FD_6",
+      "key": "T_5140_close_fd_File_FD_6"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 8,
+      "result": "0",
+      "source": "T_5140",
+      "target": "T_5140",
+      "key": "T_5140_close_exit_T_5140"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 3,
+      "source": "T_5140",
+      "target": "File_FD_5",
+      "key": "T_5140_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5140",
+      "target": "File_FD_7",
+      "key": "T_5140_close_fd_File_FD_7"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5140",
+      "target": "File_FD_8",
+      "key": "T_5140_close_fd_File_FD_8"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5140",
+      "target": "File_FD_9",
+      "key": "T_5140_close_fd_File_FD_9"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5140",
+      "target": "File_FD_10",
+      "key": "T_5140_close_fd_File_FD_10"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5140",
+      "target": "CPU_3",
+      "key": "T_5140_scheduled_to_wake_on_CPU_3"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5140",
+      "target": "CPU_3",
+      "key": "T_5140_wake_up_CPU_3"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "102976",
+      "source": "T_5140",
+      "target": "CPU_3",
+      "key": "T_5140_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5140",
+      "target": "CPU_3",
+      "key": "T_5140_switched_out_CPU_3"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 3,
+      "runtime": "521618",
+      "source": "T_5140",
+      "target": "CPU_0",
+      "key": "T_5140_runtime_stat_CPU_0"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 2,
+      "source": "T_5140",
+      "target": "CPU_0",
+      "key": "T_5140_switched_out_CPU_0"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5140",
+      "target": "CPU_1",
+      "key": "T_5140_scheduled_to_wake_on_CPU_1"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5140",
+      "target": "CPU_1",
+      "key": "T_5140_wake_up_CPU_1"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5140",
+      "target": "T_5140",
+      "key": 0
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5141",
+      "target": "CPU_1",
+      "key": "T_5141_scheduled_to_wake_on_CPU_1"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5141",
+      "target": "CPU_1",
+      "key": "T_5141_wake_up_CPU_1"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "46670",
+      "source": "T_5141",
+      "target": "CPU_1",
+      "key": "T_5141_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5141",
+      "target": "CPU_1",
+      "key": "T_5141_switched_out_CPU_1"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 32,
+      "source": "T_5141",
+      "target": "File_FD_5",
+      "key": "T_5141_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 32,
+      "result": "0",
+      "source": "T_5141",
+      "target": "T_5141",
+      "key": "T_5141_close_exit_T_5141"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 2,
+      "runtime": "779838",
+      "source": "T_5141",
+      "target": "CPU_3",
+      "key": "T_5141_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5141",
+      "target": "CPU_3",
+      "key": "T_5141_switched_out_CPU_3"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5141",
+      "target": "CPU_0",
+      "key": "T_5141_scheduled_to_wake_on_CPU_0"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5141",
+      "target": "CPU_0",
+      "key": "T_5141_wake_up_CPU_0"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5141",
+      "target": "T_5141",
+      "key": 0
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 2,
+      "source": "T_5142",
+      "target": "CPU_2",
+      "key": "T_5142_scheduled_to_wake_on_CPU_2"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 2,
+      "source": "T_5142",
+      "target": "CPU_2",
+      "key": "T_5142_wake_up_CPU_2"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "53987",
+      "source": "T_5142",
+      "target": "CPU_2",
+      "key": "T_5142_runtime_stat_CPU_2"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5142",
+      "target": "CPU_2",
+      "key": "T_5142_switched_out_CPU_2"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 2,
+      "source": "T_5142",
+      "target": "File_FD_5",
+      "key": "T_5142_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 4,
+      "result": "0",
+      "source": "T_5142",
+      "target": "T_5142",
+      "key": "T_5142_close_exit_T_5142"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5142",
+      "target": "File_FD_2",
+      "key": "T_5142_close_fd_File_FD_2"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 3,
+      "runtime": "486706",
+      "source": "T_5142",
+      "target": "CPU_3",
+      "key": "T_5142_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 2,
+      "source": "T_5142",
+      "target": "CPU_3",
+      "key": "T_5142_switched_out_CPU_3"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5142",
+      "target": "File_FD_10",
+      "key": "T_5142_close_fd_File_FD_10"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5142",
+      "target": "T_5142",
+      "key": 0
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5143",
+      "target": "CPU_0",
+      "key": "T_5143_scheduled_to_wake_on_CPU_0"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5143",
+      "target": "CPU_0",
+      "key": "T_5143_wake_up_CPU_0"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "46451",
+      "source": "T_5143",
+      "target": "CPU_0",
+      "key": "T_5143_runtime_stat_CPU_0"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5143",
+      "target": "CPU_0",
+      "key": "T_5143_switched_out_CPU_0"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 17,
+      "source": "T_5143",
+      "target": "File_FD_5",
+      "key": "T_5143_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 275,
+      "result": "0",
+      "source": "T_5143",
+      "target": "T_5143",
+      "key": "T_5143_close_exit_T_5143"
+    },
+    {
+      "relationship": "ioctl_exit",
+      "weight": 4,
+      "result": "-25",
+      "source": "T_5143",
+      "target": "T_5143",
+      "key": "T_5143_ioctl_exit_T_5143"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 4,
+      "runtime": "780147",
+      "source": "T_5143",
+      "target": "CPU_1",
+      "key": "T_5143_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5143",
+      "target": "CPU_1",
+      "key": "T_5143_scheduled_to_wake_on_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5143",
+      "target": "CPU_1",
+      "key": "T_5143_switched_out_CPU_1"
+    },
+    {
+      "relationship": "ioctl",
+      "weight": 2,
+      "cmd": "21523",
+      "source": "T_5143",
+      "target": "File_1",
+      "key": "T_5143_ioctl_File_1"
+    },
+    {
+      "relationship": "ioctl",
+      "weight": 1,
+      "cmd": "21523",
+      "source": "T_5143",
+      "target": "File_2",
+      "key": "T_5143_ioctl_File_2"
+    },
+    {
+      "relationship": "ioctl",
+      "weight": 1,
+      "cmd": "21523",
+      "source": "T_5143",
+      "target": "File_0",
+      "key": "T_5143_ioctl_File_0"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 3,
+      "source": "T_5143",
+      "target": "File_FD_6",
+      "key": "T_5143_close_fd_File_FD_6"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 252,
+      "source": "T_5143",
+      "target": "File_FD_8",
+      "key": "T_5143_close_fd_File_FD_8"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5143",
+      "target": "File_FD_7",
+      "key": "T_5143_close_fd_File_FD_7"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5143",
+      "target": "CPU_2",
+      "key": "T_5143_wake_up_CPU_2"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5143",
+      "target": "File_FD_1",
+      "key": "T_5143_close_fd_File_FD_1"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5143",
+      "target": "File_FD_2",
+      "key": "T_5143_close_fd_File_FD_2"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5143",
+      "target": "CPU_3",
+      "key": "T_5143_scheduled_to_wake_on_CPU_3"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5143",
+      "target": "CPU_3",
+      "key": "T_5143_wake_up_CPU_3"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5143",
+      "target": "T_5143",
+      "key": 0
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 2,
+      "source": "T_5144",
+      "target": "CPU_3",
+      "key": "T_5144_scheduled_to_wake_on_CPU_3"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 2,
+      "source": "T_5144",
+      "target": "CPU_3",
+      "key": "T_5144_wake_up_CPU_3"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "50017",
+      "source": "T_5144",
+      "target": "CPU_3",
+      "key": "T_5144_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5144",
+      "target": "CPU_3",
+      "key": "T_5144_switched_out_CPU_3"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 2,
+      "source": "T_5144",
+      "target": "File_FD_5",
+      "key": "T_5144_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 4,
+      "result": "0",
+      "source": "T_5144",
+      "target": "T_5144",
+      "key": "T_5144_close_exit_T_5144"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5144",
+      "target": "File_FD_2",
+      "key": "T_5144_close_fd_File_FD_2"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 3,
+      "runtime": "508803",
+      "source": "T_5144",
+      "target": "CPU_0",
+      "key": "T_5144_runtime_stat_CPU_0"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 2,
+      "source": "T_5144",
+      "target": "CPU_0",
+      "key": "T_5144_switched_out_CPU_0"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5144",
+      "target": "File_FD_10",
+      "key": "T_5144_close_fd_File_FD_10"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5144",
+      "target": "T_5144",
+      "key": 0
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5145",
+      "target": "CPU_1",
+      "key": "T_5145_scheduled_to_wake_on_CPU_1"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5145",
+      "target": "CPU_1",
+      "key": "T_5145_wake_up_CPU_1"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "59431",
+      "source": "T_5145",
+      "target": "CPU_1",
+      "key": "T_5145_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5145",
+      "target": "CPU_1",
+      "key": "T_5145_switched_out_CPU_1"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 17,
+      "source": "T_5145",
+      "target": "File_FD_5",
+      "key": "T_5145_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 275,
+      "result": "0",
+      "source": "T_5145",
+      "target": "T_5145",
+      "key": "T_5145_close_exit_T_5145"
+    },
+    {
+      "relationship": "ioctl_exit",
+      "weight": 4,
+      "result": "-25",
+      "source": "T_5145",
+      "target": "T_5145",
+      "key": "T_5145_ioctl_exit_T_5145"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 4,
+      "runtime": "231580",
+      "source": "T_5145",
+      "target": "CPU_2",
+      "key": "T_5145_runtime_stat_CPU_2"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5145",
+      "target": "CPU_2",
+      "key": "T_5145_scheduled_to_wake_on_CPU_2"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5145",
+      "target": "CPU_2",
+      "key": "T_5145_switched_out_CPU_2"
+    },
+    {
+      "relationship": "ioctl",
+      "weight": 2,
+      "cmd": "21523",
+      "source": "T_5145",
+      "target": "File_1",
+      "key": "T_5145_ioctl_File_1"
+    },
+    {
+      "relationship": "ioctl",
+      "weight": 1,
+      "cmd": "21523",
+      "source": "T_5145",
+      "target": "File_2",
+      "key": "T_5145_ioctl_File_2"
+    },
+    {
+      "relationship": "ioctl",
+      "weight": 1,
+      "cmd": "21523",
+      "source": "T_5145",
+      "target": "File_0",
+      "key": "T_5145_ioctl_File_0"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 3,
+      "source": "T_5145",
+      "target": "File_FD_6",
+      "key": "T_5145_close_fd_File_FD_6"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 252,
+      "source": "T_5145",
+      "target": "File_FD_8",
+      "key": "T_5145_close_fd_File_FD_8"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5145",
+      "target": "File_FD_7",
+      "key": "T_5145_close_fd_File_FD_7"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5145",
+      "target": "CPU_3",
+      "key": "T_5145_wake_up_CPU_3"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5145",
+      "target": "File_FD_1",
+      "key": "T_5145_close_fd_File_FD_1"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5145",
+      "target": "File_FD_2",
+      "key": "T_5145_close_fd_File_FD_2"
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5145",
+      "target": "CPU_0",
+      "key": "T_5145_scheduled_to_wake_on_CPU_0"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5145",
+      "target": "CPU_0",
+      "key": "T_5145_wake_up_CPU_0"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5145",
+      "target": "T_5145",
+      "key": 0
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5146",
+      "target": "CPU_0",
+      "key": "T_5146_scheduled_to_wake_on_CPU_0"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5146",
+      "target": "CPU_0",
+      "key": "T_5146_wake_up_CPU_0"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "50670",
+      "source": "T_5146",
+      "target": "CPU_0",
+      "key": "T_5146_runtime_stat_CPU_0"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5146",
+      "target": "CPU_0",
+      "key": "T_5146_switched_out_CPU_0"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 2,
+      "source": "T_5146",
+      "target": "File_FD_5",
+      "key": "T_5146_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 3,
+      "result": "0",
+      "source": "T_5146",
+      "target": "T_5146",
+      "key": "T_5146_close_exit_T_5146"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 1,
+      "source": "T_5146",
+      "target": "File_FD_2",
+      "key": "T_5146_close_fd_File_FD_2"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 2,
+      "runtime": "460540",
+      "source": "T_5146",
+      "target": "CPU_1",
+      "key": "T_5146_runtime_stat_CPU_1"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5146",
+      "target": "CPU_1",
+      "key": "T_5146_switched_out_CPU_1"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5146",
+      "target": "T_5146",
+      "key": 0
+    },
+    {
+      "relationship": "scheduled_to_wake_on",
+      "weight": 1,
+      "source": "T_5147",
+      "target": "CPU_3",
+      "key": "T_5147_scheduled_to_wake_on_CPU_3"
+    },
+    {
+      "relationship": "wake_up",
+      "weight": 1,
+      "source": "T_5147",
+      "target": "CPU_3",
+      "key": "T_5147_wake_up_CPU_3"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 1,
+      "runtime": "45820",
+      "source": "T_5147",
+      "target": "CPU_3",
+      "key": "T_5147_runtime_stat_CPU_3"
+    },
+    {
+      "relationship": "switched_out",
+      "weight": 1,
+      "source": "T_5147",
+      "target": "CPU_3",
+      "key": "T_5147_switched_out_CPU_3"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 17,
+      "source": "T_5147",
+      "target": "File_FD_5",
+      "key": "T_5147_close_fd_File_FD_5"
+    },
+    {
+      "relationship": "close_exit",
+      "weight": 19,
+      "result": "0",
+      "source": "T_5147",
+      "target": "T_5147",
+      "key": "T_5147_close_exit_T_5147"
+    },
+    {
+      "relationship": "ioctl_exit",
+      "weight": 4,
+      "result": "-25",
+      "source": "T_5147",
+      "target": "T_5147",
+      "key": "T_5147_ioctl_exit_T_5147"
+    },
+    {
+      "relationship": "runtime_stat",
+      "weight": 2,
+      "runtime": "185619",
+      "source": "T_5147",
+      "target": "CPU_0",
+      "key": "T_5147_runtime_stat_CPU_0"
+    },
+    {
+      "relationship": "ioctl",
+      "weight": 2,
+      "cmd": "21523",
+      "source": "T_5147",
+      "target": "File_1",
+      "key": "T_5147_ioctl_File_1"
+    },
+    {
+      "relationship": "ioctl",
+      "weight": 1,
+      "cmd": "21523",
+      "source": "T_5147",
+      "target": "File_2",
+      "key": "T_5147_ioctl_File_2"
+    },
+    {
+      "relationship": "ioctl",
+      "weight": 1,
+      "cmd": "21523",
+      "source": "T_5147",
+      "target": "File_0",
+      "key": "T_5147_ioctl_File_0"
+    },
+    {
+      "relationship": "close_fd",
+      "weight": 2,
+      "source": "T_5147",
+      "target": "File_FD_6",
+      "key": "T_5147_close_fd_File_FD_6"
+    },
+    {
+      "relationship": "contains",
+      "source": "P_5147",
+      "target": "T_5147",
+      "key": 0
+    }
+  ]
+}

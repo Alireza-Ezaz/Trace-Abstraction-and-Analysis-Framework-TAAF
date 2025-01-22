@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 
 def main():
     input_file = "output/knowledge_graph_output/knowledge_graph.json"
-    output_file = "knowledge_graph_with_communities.json"
+    output_file = "output/knowledge_graph_output/knowledge_graph_with_communities.json"
 
     print(f"Loading raw knowledge graph from {input_file} ...")
     with open(input_file, 'r') as f:
