@@ -2189,7 +2189,7 @@ class EventTranslator:
         type_mapping = {
             "1": "SOCK_STREAM (reliable, connection-based byte streams)",
             "2": "SOCK_DGRAM (connectionless, unreliable datagrams of fixed maximum length)",
-            "3": "SOCK_RAW (raw network protocol access)",
+            "3": "SOCK_RAW (raw_trace_data network protocol access)",
             "4": "SOCK_RDM (reliable datagram layer that does not guarantee ordering)",
             "5": "SOCK_SEQPACKET (sequenced, reliable, connection-based, two-way transmission data path)",
             "6": "SOCK_DCCP (Datagram Congestion Control Protocol)",
