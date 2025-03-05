@@ -5,18 +5,13 @@ import matplotlib.pyplot as plt
 # =============================================================================
 # CONFIGURATION / OPTIONS
 # =============================================================================
+# Define the interval length (in nanoseconds) used for the query.
+INTERVAL_LENGTH_NS = 1_000_000_000  # 1 second
 
-# These are example options.
-# In your EASE script you used:
-#    startRange = midTime and delta = 1e9 (i.e. a 1-second interval)
-# Adjust these if you run the query for a different interval.
-INTERVAL_LENGTH_NS = 1_000_000_000  # 1 second in nanoseconds
-
-# Option: provide the CPU usage analysis output as a text file.
-# For demonstration, we use a multiline string simulating the EASE script output.
-# (In practice, you could load from a file, e.g., using open('cpu_usage_output.txt').read())
+# Sample output from your Trace Compass CPU usage analysis.
+# Each line is expected to be in the format:
+#   "  CPUs/{cpu_id}/{thread_id} => {accumulated_cpu_time}"
 sample_output = """
-2D query results for leaf nodes under 'CPUs' between 1464874382595054600 and 1464874383595054600:
   CPUs/2/5235 => 885106
   CPUs/1/0 => 600228811
   CPUs/1/5130 => 34468172
@@ -339,35 +334,27 @@ sample_output = """
 # =============================================================================
 # STEP 1: PARSE THE OUTPUT FROM THE CPU USAGE ANALYSIS
 # =============================================================================
-#
-# We expect lines in the format:
-#    "  CPUs/{cpu_id}/{thread_id} => {duration}"
-# where {duration} is in nanoseconds.
-#
-# For CPU nodes, if thread_id == "0" we treat that as "idle" time.
-# Otherwise, it is the runtime for the specified thread on that CPU.
-
 def parse_cpu_usage_output(output_text):
     """
-    Parses the CPU usage analysis output and returns a list of records.
-    Each record is a dict with keys:
-       'cpu': CPU id (as string),
-       'thread': thread id (as string),
-       'duration': duration in nanoseconds (int)
+    Parses the CPU usage analysis output.
+    Each relevant line should match the pattern:
+       "  CPUs/{cpu_id}/{thread_id} => {accumulated_cpu_time}"
+    Returns a list of records with:
+       'cpu': CPU id (str)
+       'thread': thread id (str)
+       'accumulated_cpu_time': integer (nanoseconds)
     """
     records = []
-    # Split into lines
     lines = output_text.strip().splitlines()
-    # Use regex to match lines of the form: "  CPUs/{cpu_id}/{thread_id} => {value}"
     pattern = re.compile(r"^\s+CPUs/(\d+)/(\S+)\s*=>\s*(\d+)")
     for line in lines:
         match = pattern.match(line)
         if match:
-            cpu_id, thread_id, duration = match.groups()
+            cpu_id, thread_id, acc_time = match.groups()
             record = {
                 'cpu': cpu_id,
                 'thread': thread_id,
-                'duration': int(duration)
+                'accumulated_cpu_time': int(acc_time)
             }
             records.append(record)
     return records
@@ -382,73 +369,56 @@ for rec in records:
 # STEP 2: AGGREGATE METRICS FOR CPU NODES AND THREAD-CPU EDGES
 # =============================================================================
 #
-# We create two types of aggregation:
+# For each record:
+#   - If thread=="0", treat as idle time.
+#   - Otherwise, treat as busy time.
+# We accumulate:
+#   - For each CPU: total, idle, busy times and compute utilization.
+#   - For each (thread, cpu) edge: sum accumulated_cpu_time, count occurrences, and store each value.
+#   - For each Thread: the latest (largest) accumulated_cpu_time.
 #
-# 1. Per CPU: Sum all durations for each CPU.
-#    - Also, for idle time we add durations where thread == "0".
-#    - Busy time = total time minus idle time.
-#    - Utilization % = busy_time / INTERVAL_LENGTH_NS * 100.
-#
-# 2. Per edge (Thread -> CPU): For each (cpu, thread) pair where thread != "0",
-#    accumulate:
-#       - total CPU time,
-#       - count of occurrences,
-#       - list of durations.
-#
-# Additionally, per Thread node, we accumulate overall CPU time across all CPUs.
-
-# Dictionaries to store metrics.
 cpu_metrics = {}  # key: cpu id, value: dict with 'total', 'idle', 'busy'
-edge_metrics = {}  # key: (thread, cpu) tuple, value: dict with 'total_time', 'count', 'durations'
-thread_metrics = {}  # key: thread id, value: total CPU time (sum over edges)
+edge_metrics = {}  # key: (thread, cpu) tuple, value: dict with 'total_time', 'count', 'accumulated_times'
+thread_metrics = {}  # key: thread id, value: latest accumulated_cpu_time
 
-# Process each record.
 for rec in records:
     cpu = rec['cpu']
     thread = rec['thread']
-    duration = rec['duration']
+    acc_time = rec['accumulated_cpu_time']
 
-    # Initialize CPU metrics if not present
     if cpu not in cpu_metrics:
         cpu_metrics[cpu] = {'total': 0, 'idle': 0, 'busy': 0}
-    cpu_metrics[cpu]['total'] += duration
+    cpu_metrics[cpu]['total'] += acc_time
     if thread == "0":
-        cpu_metrics[cpu]['idle'] += duration
+        cpu_metrics[cpu]['idle'] += acc_time
     else:
-        cpu_metrics[cpu]['busy'] += duration
-        # Process edge metrics (edge from thread to CPU)
+        cpu_metrics[cpu]['busy'] += acc_time
         edge_key = (thread, cpu)
         if edge_key not in edge_metrics:
-            edge_metrics[edge_key] = {'total_time': 0, 'count': 0, 'durations': []}
-        edge_metrics[edge_key]['total_time'] += duration
+            edge_metrics[edge_key] = {'total_time': 0, 'count': 0, 'accumulated_times': []}
+        edge_metrics[edge_key]['total_time'] += acc_time
         edge_metrics[edge_key]['count'] += 1
-        edge_metrics[edge_key]['durations'].append(duration)
-        # Accumulate thread metrics
-        if thread not in thread_metrics:
-            thread_metrics[thread] = 0
-        thread_metrics[thread] += duration
+        edge_metrics[edge_key]['accumulated_times'].append(acc_time)
+        # For thread metrics, we consider the highest (latest) accumulated value
+        if thread not in thread_metrics or acc_time > thread_metrics[thread]:
+            thread_metrics[thread] = acc_time
 
-# Compute CPU utilization percentages.
+# Compute utilization for each CPU node.
 for cpu, metrics in cpu_metrics.items():
-    # If the interval length is known, we can use that.
-    # Typically, sum of durations per CPU should be near INTERVAL_LENGTH_NS.
-    total = metrics['total']
-    idle = metrics['idle']
     busy = metrics['busy']
-    utilization = (busy / INTERVAL_LENGTH_NS) * 100
+    utilization = (busy / INTERVAL_LENGTH_NS) * 100  # as percentage
     metrics['utilization'] = utilization
 
 # =============================================================================
 # STEP 3: BUILD THE KNOWLEDGE GRAPH (NETWORKX)
 # =============================================================================
 #
-# We create nodes for CPUs and Threads.
-# For CPU nodes, we attach metrics (total, idle, busy, utilization).
-# For Thread nodes, we attach overall CPU time.
-# We then create directed edges from each thread node to the CPU node(s) it used,
-# with edge attributes for total CPU time, average CPU time, and list of durations.
-
-# Create an empty directed graph.
+# Create nodes for CPUs and Threads.
+# For CPU nodes: attach metrics (total, idle, busy, utilization).
+# For Thread nodes: attach overall (latest) accumulated CPU time.
+# For each edge from a Thread to a CPU, attach:
+#   - total accumulated CPU time, count, average, and list of individual accumulated times.
+#
 KG = nx.DiGraph()
 
 # Add CPU nodes.
@@ -477,13 +447,13 @@ for (thread, cpu), metrics in edge_metrics.items():
     avg_time = metrics['total_time'] / metrics['count']
     KG.add_edge(source, target,
                 relation="used_cpu",
-                total_time=metrics['total_time'],
+                total_accumulated_time=metrics['total_time'],
                 count=metrics['count'],
-                avg_time=avg_time,
-                durations=metrics['durations'])
+                avg_accumulated_time=avg_time,
+                accumulated_times=metrics['accumulated_times'])
 
 # =============================================================================
-# STEP 4: DISPLAY THE RESULTS AND OPTIONAL VISUALIZATION
+# STEP 4: PRINT METRICS AND VISUALIZE THE KNOWLEDGE GRAPH
 # =============================================================================
 
 print("\n=== CPU Metrics ===")
@@ -492,18 +462,19 @@ for cpu, metrics in cpu_metrics.items():
         f"CPU {cpu}: Total = {metrics['total']} ns, Idle = {metrics['idle']} ns, Busy = {metrics['busy']} ns, Utilization = {metrics['utilization']:.2f}%")
 
 print("\n=== Thread Metrics ===")
-for thread, total in thread_metrics.items():
-    print(f"Thread {thread}: Total CPU time = {total} ns")
+for thread, total_time in thread_metrics.items():
+    print(f"Thread {thread}: Latest accumulated CPU time = {total_time} ns")
 
 print("\n=== Edge Metrics (Thread -> CPU) ===")
 for (thread, cpu), metrics in edge_metrics.items():
+    avg_time = metrics['total_time'] / metrics['count']
     print(
-        f"Thread {thread} -> CPU {cpu}: Total = {metrics['total_time']} ns, Count = {metrics['count']}, Avg = {metrics['total_time'] / metrics['count']:.2f} ns, Durations = {metrics['durations']}")
+        f"Thread {thread} -> CPU {cpu}: Total accumulated time = {metrics['total_time']} ns, Count = {metrics['count']}, Average = {avg_time:.2f} ns, Recorded values = {metrics['accumulated_times']}")
 
-# Optionally, visualize the graph.
+# Visualize the Knowledge Graph.
 plt.figure(figsize=(8, 6))
 pos = nx.spring_layout(KG, k=0.5)
-# Color nodes by entity type: CPUs in red, Threads in green.
+# Color nodes: CPUs in red, Threads in green.
 node_colors = []
 for node in KG.nodes(data=True):
     if node[1]['entity'] == "CPU":
@@ -517,36 +488,16 @@ plt.title("Knowledge Graph from CPU Usage Analysis")
 plt.show()
 
 # =============================================================================
-# STEP 5: CONCLUSION
+# FINAL NOTES:
 # =============================================================================
+# - This code replaces "duration" with "accumulated_cpu_time", since the values
+#   returned by your state system query are cumulative CPU times up to the query time.
+# - If the same thread appears multiple times for the same CPU, we accumulate the
+#   total and keep a list of all recorded values, so you can later compute differences if desired.
+# - The CPU node metrics include the total recorded time (which ideally should be close
+#   to the query interval), idle time (when thread == "0"), busy time, and a computed
+#   utilization percentage.
+# - You can further modify this code to compute incremental CPU time (by taking differences
+#   between successive accumulated values) if that is more meaningful for your analysis.
 #
-# This code parses the output of your CPU usage analysis EASE script,
-# aggregates the following metrics:
-#
-# For each CPU node:
-#   - Total time (should equal the interval length, e.g., 1e9 ns)
-#   - Idle time (when thread "0" is active)
-#   - Busy time (total - idle)
-#   - Utilization percentage (busy / interval * 100)
-#
-# For each edge (Thread -> CPU):
-#   - Total CPU time, count of occurrences, average CPU time per occurrence, list of durations.
-#
-# For each Thread node:
-#   - Overall CPU time (summed across all CPUs)
-#
-# These metrics can be extended further (for example, if you run queries over multiple intervals, you can accumulate them).
-#
-# The resulting NetworkX graph (KG) is now built with nodes and edges carrying your desired metrics.
-# You can export this graph, analyze it further, or use it as input for further processing (e.g., query with an LLM).
-#
-# Options:
-# - Adjust the INTERVAL_LENGTH_NS based on your query (default is 1 second here).
-# - If you have a file output from the EASE script, replace 'sample_output' with the file contents.
-#
-# This is a modular approach that you can extend to include additional metrics such as:
-# - For CPU nodes: overall CPU busy time over multiple intervals, computed idle and busy percentages over a longer trace.
-# - For Thread nodes: overall waiting time if you have additional data.
-# - For edges: if you run the query over multiple intervals, you can store a list of intervals (start and end times) and then compute statistics.
-#
-# End of code.
+# Run this script in PyCharm on Linux. It uses standard matplotlib (plt.show()) to display the plot.
